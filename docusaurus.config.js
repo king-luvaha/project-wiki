@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Synaptic',
+  tagline: 'Understand your Code',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -83,7 +83,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Yoga',
+        title: 'Synaptic',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -97,7 +97,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/king-luvaha',
             label: 'GitHub',
             position: 'right',
           },
@@ -119,16 +119,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Roadmap',
-                href: 'https://roadmap.sh/',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/ezra-yeswa/',
               },
               {
                 label: 'Discord',
                 href: 'https://discord.com/channels/@me',
-              },
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/ezra-yeswa/',
               },
             ],
           },
@@ -142,6 +138,10 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/king-luvaha',
+              },
+              {
+                label: 'Roadmap',
+                href: 'https://roadmap.sh/',
               },
             ],
           },
