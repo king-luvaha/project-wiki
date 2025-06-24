@@ -555,6 +555,7 @@ You’ve built a **fully functional Unit Converter** with:
 - Implement user authentication  
 - Deploy online  
 
-**Full code available on [GitHub](#).**  
+---
 
-Happy coding! 🚀
+
+**Full code available on [GitHub](https://github.com/king-luvaha/Unit-Converter-Web-App).**  
