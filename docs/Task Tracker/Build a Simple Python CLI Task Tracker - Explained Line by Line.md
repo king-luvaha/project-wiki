@@ -57,7 +57,7 @@ Now, let's look under the hood ⬇️
 
 ---
 
-### **Setting Up the Projects
+### Setting Up the Projects
 
 ```python
 import sys
@@ -75,7 +75,7 @@ from datetime import datetime
 
 ---
 
-### **Loading and Saving Tasks
+### Loading and Saving Tasks
 
 ```python
 TASKS_FILE = 'tasks.json'
@@ -127,7 +127,7 @@ Why this matters: It makes the program fault-tolerant and user-friendly, especia
 
 ---
 
-### **Adding a Task
+### Adding a Task
 
 ```python
 def add_task(description):
@@ -223,7 +223,7 @@ print(f"Task added successfully (id: {new_id})")
 
 ---
 
-### **Updating a Task
+### Updating a Task
 
 ```python
 def update_task(task_id, new_description):
@@ -298,7 +298,7 @@ print(f"Task {task_id} not found")
 
 ---
 
-### **Deleting a Task
+### Deleting a Task
 
 ```python
 def delete_task(task_id):
@@ -374,7 +374,7 @@ print(f"Task {task_id} not found")
 
 ---
 
-### **Changing Task Status
+### Changing Task Status
 
 ```python
 def mark_task_status(task_id, status):
@@ -456,7 +456,7 @@ print(f"Task {task_id} not found")
 
 ---
 
-### **Listing Tasks
+### Listing Tasks
 
 ```python
 def list_tasks(status_filter=None):
@@ -551,7 +551,7 @@ This helps users quickly scan through their tasks.
 
 ---
 
-### **Handling User Commands
+### Handling User Commands
 
 ```python
 def print_usage():
