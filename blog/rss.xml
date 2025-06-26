@@ -4,7 +4,7 @@
         <title>MekSense Blog</title>
         <link>https://king-luvaha.github.io/project-wiki/blog</link>
         <description>MekSense Blog</description>
-        <lastBuildDate>Thu, 26 Jun 2025 21:25:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Jun 2025 21:29:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Getting Started with Python]]></title>
             <link>https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python</link>
             <guid>https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python</guid>
-            <pubDate>Thu, 26 Jun 2025 21:25:26 GMT</pubDate>
+            <pubDate>Thu, 26 Jun 2025 21:29:01 GMT</pubDate>
             <description><![CDATA[Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.]]></description>
             <content:encoded><![CDATA[<p>Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.</p>
 <p>In this blog post, we'll explore what makes Python so powerful, why you should learn it, and how to get started writing your first Python program.</p>
