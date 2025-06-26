@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Synaptic',
-  tagline: 'Understand your Code',
+  title: 'MekSense',
+  tagline: 'Documentation That Works.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -83,7 +83,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Synaptic',
+        title: 'MekSense',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
