@@ -2,7 +2,8 @@ Certainly! Let's break down the first part of your code line by line to explain 
 
 ---
 
-### **Code Block 1: Importing Required Modules**
+
+## 🧠 **Step 1: Importing Required Modules**
 
 ```python
 import sys
@@ -38,7 +39,7 @@ from datetime import datetime
 
 ---
 
-### **Key Takeaways for Your Audience:**
+#### **Key Takeaways :**
 
 - These imports are **essential dependencies** for the script to work.  
 - `sys` → Handles command-line inputs.  
@@ -48,9 +49,11 @@ from datetime import datetime
 
 ---
 
+## 🌐 **Step 2: Fetch GitHub User Activity**
+
 Let's break down the `fetch_user_activity(username)` function line by line. This function is responsible for fetching a GitHub user's public activity data from the GitHub API.
 
-### **Function Definition**
+#### **Function Definition**
 
 ```python
 def fetch_user_activity(username):
@@ -63,7 +66,7 @@ def fetch_user_activity(username):
 
 ---
 
-### **Constructing the API URL**
+#### **Constructing the API URL**
 
 ```python
     url = f"https://api.github.com/users/{username}/events"
@@ -76,7 +79,7 @@ def fetch_user_activity(username):
 
 ---
 
-### **Making the HTTP Request (Try Block)**
+#### **Making the HTTP Request (Try Block)**
 
 ```python
     try:
@@ -90,7 +93,7 @@ def fetch_user_activity(username):
 
 ---
 
-### **Checking for HTTP Errors**
+#### **Checking for HTTP Errors**
 
 ```python
         response.raise_for_status()
@@ -103,7 +106,7 @@ def fetch_user_activity(username):
 
 ---
 
-### **Returning JSON Data (Success Case)**
+#### **Returning JSON Data (Success Case)**
 
 ```python
         return response.json()
@@ -115,7 +118,7 @@ def fetch_user_activity(username):
 
 ---
 
-### **Handling HTTP Errors (Except Block)**
+#### **Handling HTTP Errors (Except Block)**
 
 ```python
     except requests.exceptions.HTTPError as http_err:
@@ -133,7 +136,7 @@ def fetch_user_activity(username):
 
 ---
 
-### **Handling General Request Errors**
+#### **Handling General Request Errors**
 
 ```python
     except requests.exceptions.RequestException as err:
@@ -149,7 +152,7 @@ def fetch_user_activity(username):
 
 ---
 
-### **Fallback Return (If All Else Fails)**
+#### **Fallback Return (If All Else Fails)**
 
 ```python
     return None
@@ -162,9 +165,11 @@ def fetch_user_activity(username):
 
 ---
 
+## 🔎 **Step 3: Parse the Activity Data**
+
 Let's break down the `parse_activity(events)` function in extreme detail. This function takes raw GitHub event data and converts it into human-readable activity messages.
 
-### Function Definition
+#### Function Definition
 
 ```python
 def parse_activity(events):
@@ -175,7 +180,7 @@ def parse_activity(events):
 	- `events`: List of event dictionaries from GitHub API
 - **Returns**: List of formatted activity strings
 
-### Empty Input Check
+#### Empty Input Check
 
 ```python
     if not events:
@@ -187,7 +192,7 @@ def parse_activity(events):
 	- If no events are passed, return empty list to avoid errors
 	- Common practice called a "guard clause"
 
-### Initialize Output List
+#### Initialize Output List
 
 ```python
     activity_messages = []
@@ -198,7 +203,7 @@ def parse_activity(events):
 	- Prepares container for our formatted messages
 	- Better than appending to None or undefined variable
 
-### Event Processing Loop
+#### Event Processing Loop
 
 ```python
     for event in events:
@@ -209,7 +214,7 @@ def parse_activity(events):
 	- Processes each event one by one
 	- Events come in reverse chronological order (newest first)
 
-### Extract Event Basics
+#### Extract Event Basics
 
 ```python
         event_type = event.get('type')
@@ -225,7 +230,7 @@ def parse_activity(events):
 	    - Then gets 'name' from repo (default 'unknown repository' if missing)
   - `created_at`: Gets timestamp with empty string default
 
-### Date Formatting
+#### Date Formatting
 
 ```python
         try:
@@ -253,7 +258,7 @@ def parse_activity(events):
     - `TypeError`: If created_at is None
     - Falls back to "an unknown time"
 
-### Get Event Payload
+#### Get Event Payload
 
 ```python
         payload = event.get('payload', {})
@@ -264,7 +269,7 @@ def parse_activity(events):
 	- Different event types store data in payload
 	- Default empty dict prevents errors if payload missing
 
-### Event Type Handling
+#### Event Type Handling
 
 The function processes several GitHub event types:
 
@@ -353,7 +358,7 @@ The function processes several GitHub event types:
 	- GitHub has many event types (60+)
 	- Provides basic info rather than failing
 
-### Store Formatted Message
+#### Store Formatted Message
 
 ```python
         activity_messages.append(f"- {message} (on {formatted_date})")
@@ -366,7 +371,7 @@ The function processes several GitHub event types:
 - **Example**:
 	- "- Pushed 2 commits to john-doe/linux (on Oct 15, 2023 at 14:30)"
 
-### Return Results
+#### Return Results
 
 ```python
     return activity_messages
@@ -378,9 +383,11 @@ The function processes several GitHub event types:
 
 ---
 
+## 🖥 **Step 4: Display the Activity to the Terminal**
+
 Let's break down the `display_activity(username, activities)` function in detail. This function is responsible for presenting the GitHub activity data to the user in a readable format.
 
-### Function Definition
+#### Function Definition
 
 ```python
 def display_activity(username, activities):
@@ -392,7 +399,7 @@ def display_activity(username, activities):
 	- `activities`: List of formatted activity strings from `parse_activity()`
 - **Returns**: None (outputs directly to console)
 
-### Empty Activities Check
+#### Empty Activities Check
 
 ```python
     if not activities:
@@ -411,7 +418,7 @@ def display_activity(username, activities):
 	- Prevents confusing empty output
 	- Provides clear feedback to user
 
-### Header Output
+#### Header Output
 
 ```python
     print(f"\nRecent activity for {username}:\n")
@@ -428,7 +435,7 @@ def display_activity(username, activities):
   
   ```
 
-### Activity Display Loop
+#### Activity Display Loop
 
 ```python
     for activity in activities[:10]:
@@ -446,7 +453,7 @@ def display_activity(username, activities):
 	- Most users only care about recent activity
 	- Matches GitHub's default behaviour
 
-### Footer Output
+#### Footer Output
 
 ```python
     print("\n")
@@ -458,7 +465,7 @@ def display_activity(username, activities):
 	- Consistent spacing with header
 - **Alternative**: Could use `print()` once instead of `print("\n")`
 
-### Example Complete Output
+#### Example Complete Output
 
 ```
 Recent activity for john-doe:
@@ -473,9 +480,12 @@ Recent activity for john-doe:
 
 ---
 
+## 🧪 **Step 5: Add the `main()` Function**
+
 Let's break down the `main()` function line by line. This is the entry point of your GitHub activity tracker script that orchestrates all the functionality.
 
-### Function Definition
+#### Function Definition
+
 ```python
 def main():
 ```
@@ -484,7 +494,7 @@ def main():
 	- Standard Python practice to encapsulate main logic
 	- Called when script is executed directly (via `if __name__ == "__main__"`)
 
-### Command Line Argument Check
+#### Command Line Argument Check
 
 ```python
     if len(sys.argv) != 2:
@@ -505,7 +515,7 @@ def main():
 	- Correct: `python github_activity.py john-doe`
 	- Incorrect: `python github_activity.py` (missing username)
 
-### Get Username
+#### Get Username
 
 ```python
     username = sys.argv[1]
@@ -516,7 +526,7 @@ def main():
 	- Only reaches this line if argument count was correct
 	- Stores username for use in subsequent functions
 
-### Status Message
+#### Status Message
 
 ```python
     print(f"\nFetching GitHub activity for {username}...\n")
@@ -533,7 +543,7 @@ def main():
   Fetching GitHub activity for john-doe...
   ```
 
-### Fetch Raw Activity Data
+#### Fetch Raw Activity Data
 
 ```python
     raw_activity = fetch_user_activity(username)
@@ -547,7 +557,7 @@ def main():
     - JSON data (success)
     - None (failure, already handled error message)
 
-### Check for Failed Fetch
+#### Check for Failed Fetch
 
 ```python
     if raw_activity is None:
@@ -560,7 +570,7 @@ def main():
 		- Exit with error code 1
 	- Note: Error message already printed by `fetch_user_activity()`
 
-### Parse Activity Data
+#### Parse Activity Data
 
 ```python
     parsed_activity = parse_activity(raw_activity)
@@ -579,7 +589,7 @@ def main():
     ]
     ```
 
-### Display Results
+#### Display Results
 
 ```python
     display_activity(username, parsed_activity)
@@ -595,7 +605,7 @@ def main():
 	    - Limiting to 10 items
 	    - Empty list case
 
-### Example Full Execution
+#### Example Full Execution
 
 ```bash
 $ python github_activity.py john-doe
@@ -613,6 +623,9 @@ Recent activity for john-doe:
 
 ---
 
+## 🔁 **Step 6: Run the Script**
+
+
 Let's break down this final code block, which is the entry point of your Python script:
 
 ### Code Block
@@ -623,7 +636,7 @@ if __name__ == "__main__":
 ```
 
 
-### Line-by-Line Explanation:
+#### Line-by-Line Explanation:
 
 1. **`if __name__ == "__main__":
 	- **Purpose**: This is a Python idiom that checks whether the script is being run directly or being imported as a module.
