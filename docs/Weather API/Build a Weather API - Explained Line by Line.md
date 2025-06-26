@@ -3,11 +3,11 @@ This guide provides a comprehensive line-by-line explanation of a Flask weather 
 
 ---
 
-# Part 1: Main Application - app.py
+## Part 1: Main Application - app.py
 
 Let's break down this Flask weather API code line by line to understand how it works!
 
-## Import Statements - Setting Up Our Tools
+### Import Statements - Setting Up Our Tools
 
 ```python
 from flask import Flask, request, jsonify
@@ -67,7 +67,7 @@ from flask_limiter.util import get_remote_address
 
 ---
 
-## Application Setup
+### Application Setup
 
 ```python
 load_dotenv()
@@ -102,7 +102,7 @@ limiter = Limiter(app=app, key_func=get_remote_address)
 
 ---
 
-## Route Definitions - The API Endpoints
+### Route Definitions - The API Endpoints
 
 ```python
 @app.route('/')
@@ -136,7 +136,7 @@ def weather():
 
 ---
 
-## Request Processing
+### Request Processing
 
 ```python
 city = request.args.get('city')
@@ -163,7 +163,7 @@ if not city:
 
 ---
 
-## Cache Logic
+### Cache Logic
 
 ```python
 cached = cache_get(city)
@@ -181,7 +181,7 @@ if cached:
 
 ---
 
-## API Call and Caching
+### API Call and Caching
 
 ```python
 try:
@@ -208,7 +208,7 @@ except Exception as e:
 
 ---
 
-## Application Runner
+### Application Runner
 
 ```python
 if __name__ == '__main__':
@@ -224,7 +224,7 @@ if __name__ == '__main__':
 
 ---
 
-## How It All Works Together
+### How It All Works Together
 
 1. **User makes request** → `/weather?city=London`
 2. **Rate limiting checks** → Is this IP under the limit?
@@ -239,11 +239,11 @@ This architecture is efficient, robust, and scalable!
 
 ---
 
-# Part 2: Weather API Integration - weather_api.py
+## Part 2: Weather API Integration - weather_api.py
 
 Let's break down this weather API integration code line by line to understand how we fetch weather data from Visual Crossing!
 
-## Import Statements - Getting Our Tools Ready
+### Import Statements - Getting Our Tools Ready
 
 ```python
 import requests
@@ -269,7 +269,7 @@ import os
 
 ---
 
-## Configuration - Setting Up Our API Key
+### Configuration - Setting Up Our API Key
 
 ```python
 API_KEY = os.getenv("API_KEY")
@@ -291,7 +291,7 @@ API_KEY = os.getenv("API_KEY")
 
 ---
 
-## The Weather Function - Where the Magic Happens
+### The Weather Function - Where the Magic Happens
 
 ```python
 def get_weather(city):
@@ -305,7 +305,7 @@ def get_weather(city):
 
 ---
 
-## Building the API URL - Crafting Our Request
+### Building the API URL - Crafting Our Request
 
 ```python
 url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{city}?unitGroup=metric&key={API_KEY}&contentType=json"
@@ -335,7 +335,7 @@ https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timel
 
 ---
 
-## Making the API Call - Sending Our Request
+### Making the API Call - Sending Our Request
 
 ```python
 response = requests.get(url)
@@ -360,7 +360,7 @@ response = requests.get(url)
 
 ---
 
-## Error Handling - Dealing with Problems
+### Error Handling - Dealing with Problems
 
 ```python
 if response.status_code != 200:
@@ -397,7 +397,7 @@ if response.status_code != 200:
 
 ---
 
-## Returning the Data - Success!
+### Returning the Data - Success!
 
 ```python
 return response.json()
@@ -430,7 +430,7 @@ The `.json()` method converts this JSON string into a Python dictionary that we 
 
 ---
 
-## How This Function Fits Into Our App
+### How This Function Fits Into Our App
 
 Here's the flow when someone requests weather data:
 
@@ -444,11 +444,11 @@ Here's the flow when someone requests weather data:
 
 ---
 
-# Part 3: Redis Caching System - cache.py
+## Part 3: Redis Caching System - cache.py
 
 Let's break down this Redis caching code line by line to understand how we store and retrieve data for lightning-fast performance!
 
-## What is Caching and Why Do We Need It?
+### What is Caching and Why Do We Need It?
 
 Before diving into the code, let's understand caching:
 
@@ -465,7 +465,7 @@ Before diving into the code, let's understand caching:
 
 ---
 
-## Import Statements - Getting Our Tools Ready
+### Import Statements - Getting Our Tools Ready
 
 ```python
 import redis
@@ -507,7 +507,7 @@ import json
 
 ---
 
-## Redis Connection Setup
+### Redis Connection Setup
 
 ```python
 redis_url = os.getenv("REDIS_URL", "redis://localhost:6379")
@@ -555,7 +555,7 @@ r = redis.Redis.from_url(redis_url)
 
 ---
 
-## Cache Retrieval Function - Getting Data Out
+### Cache Retrieval Function - Getting Data Out
 
 ```python
 def cache_get(key):
@@ -637,7 +637,7 @@ else:
 
 ---
 
-## Cache Storage Function - Putting Data In
+### Cache Storage Function - Putting Data In
 
 ```python
 def cache_set(key, value, ex=43200):
@@ -685,11 +685,11 @@ r.set(key, json.dumps(value), ex=ex)
 
 ---
 
-## How These Functions Work Together
+### How These Functions Work Together
 
 Here's the complete caching flow in our weather API:
 
-### When a user requests weather data:
+#### When a user requests weather data:
 
 1. **Check cache first** (in `app.py`):
     
@@ -726,7 +726,7 @@ Here's the complete caching flow in our weather API:
 
 ---
 
-## Performance Impact
+### Performance Impact
 
 **Without caching:**
 
@@ -744,7 +744,7 @@ Here's the complete caching flow in our weather API:
 
 ---
 
-## Real-World Cache Scenarios
+### Real-World Cache Scenarios
 
 **Cache Hit Example:**
 
@@ -775,11 +775,11 @@ User 2: GET /weather?city=Paris (10:00 PM)
 
 ---
 
-# Conclusion: The Complete System
+## Conclusion: The Complete System
 
 Your weather API demonstrates several important concepts for building production-ready applications:
 
-## Architecture Principles
+### Architecture Principles
 
 - **Separation of Concerns**: Each file has a specific responsibility
 - **Modularity**: Code is organized into reusable functions
@@ -787,7 +787,7 @@ Your weather API demonstrates several important concepts for building production
 - **Performance**: Redis caching reduces response times and API costs
 - **Reliability**: Error handling and rate limiting protect the system
 
-## Key Learning Outcomes
+### Key Learning Outcomes
 
 Students will understand:
 
