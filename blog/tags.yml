@@ -17,3 +17,18 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+python:
+  label: Python
+  permalink: /python
+  description: Learn Python programming, tutorials, and tips
+
+beginner:
+  label: Beginner
+  permalink: /beginner
+  description: Content for beginner-level learners and programmers
+
+programming:
+  label: Programming
+  permalink: /programming
+  description: Posts related to coding, software development, and engineering
