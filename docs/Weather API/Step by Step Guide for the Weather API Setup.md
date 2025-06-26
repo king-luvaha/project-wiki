@@ -94,12 +94,6 @@ REDIS_URL=your_redis_cloud_url
 redis://default:<password>@<host>:<port>
 ```
 
-Example:
-
-```
-redis://default:Ac6oAAIjcD@redis-12345.c99.us-east-1-4.ec2.cloud.redislabs.com:12345
-```
-
 ---
 
 ### 🧠 Step 6: Add the Code
