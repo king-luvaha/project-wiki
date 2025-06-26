@@ -10,7 +10,7 @@ from collections import defaultdict
 
 ---
 
-### 🔍 **Line-by-Line Explanation**
+#### 🔍 **Line-by-Line Explanation**
 
 **1. `import random`**
 
@@ -74,7 +74,7 @@ This means:
 
 ---
 
-### Summary for Your Blog:
+## 📝 Summary:
 
  - `random` to generate a secret number for the player to guess,
  - `time` to measure how fast they guess it, and
@@ -88,7 +88,7 @@ Perfect — this section defines the **welcome message** and sets the stage for 
 
 ---
 
-## 🔹 Code Snippet
+#### 🔹 Code Snippet
 
 ```python
 def display_welcome():
@@ -102,7 +102,7 @@ def display_welcome():
 
 ---
 
-## 🔍 Explanation (Line-by-Line)
+#### 🔍 Explanation (Line-by-Line)
 
 
   `def display_welcome():`
@@ -146,7 +146,7 @@ Introduces the player to the different difficulty levels. The `\n` adds a line b
 
 ---
 
-### 🟦 Difficulty Options:
+#### 🟦 Difficulty Options:
 
 ```python
 print("1. Easy (10 chances)")
@@ -178,7 +178,7 @@ This piece of code handles **user input validation**, ensuring the player choose
 
 ---
 
-## 🔹 Code Snippet
+#### 🔹 Code Snippet
 
 ```python
 def get_difficulty():
@@ -195,7 +195,7 @@ def get_difficulty():
 
 ---
 
-## 🔍 Line-by-Line Explanation
+#### 🔍 Line-by-Line Explanation
 
 
  🟦 `def get_difficulty():`
@@ -281,7 +281,7 @@ Gives helpful feedback if the player types something that isn't a number. This m
 
 ---
 
-## 📝 Summary for Your Blog Post
+## 📝 Summary:
 
 > The `get_difficulty()` function ensures players enter a valid difficulty level (1, 2, or 3). It keeps asking until the input is both a **number** and **within the correct range**. This is achieved using a loop, exception handling (`try-except`), and clear user messages. These techniques are essential for building smooth, crash-proof CLI programs.
 
@@ -408,7 +408,7 @@ Robust input handling is crucial in making programs that **don’t break easily*
 
 ---
 
-## 📝 Summary for Your Blog Post
+## 📝 Summary:
 
 > The `get_guess()` function handles one of the most important user interactions: getting a valid guess from the player. It uses a **loop** to keep asking until the input is both a number and within the range of 1 to 100. The use of `try-except` ensures the program doesn’t crash when given invalid input. This is a great example of writing user-friendly and bug-resistant code.
 
@@ -624,7 +624,7 @@ This helps guide the player toward the correct answer.
 
 ---
 
-## 📝 Summary
+## 📝 Summary:
 
  The `play_game()` function is the main engine of the game. It handles:
 
@@ -756,7 +756,7 @@ It allows the player to replay the game multiple times without restarting the pr
 
 ---
 
-## 📝 Blog Summary
+## 📝 Summary:
 
 The `main()` function is the **central controller** of the number guessing game. It:
 
