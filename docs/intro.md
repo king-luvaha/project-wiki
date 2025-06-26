@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 
-# Welcome to MekSense Documentation!
+# Getting Started!
 
 Here at MekSense, we believe **understanding shouldn't be a puzzle**. Our mission is to transform complex information into clear, actionable insights, helping you unlock the full potential of our products and services with ease. We know that diving into new systems can feel daunting, but with MekSense, you'll find clarity at every turn.
 
