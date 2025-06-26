@@ -72,16 +72,5 @@
             <category>Hello</category>
             <category>Docusaurus</category>
         </item>
-        <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://king-luvaha.github.io/project-wiki/blog/first-blog-post</link>
-            <guid>https://king-luvaha.github.io/project-wiki/blog/first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>Hola</category>
-            <category>Docusaurus</category>
-        </item>
     </channel>
 </rss>
