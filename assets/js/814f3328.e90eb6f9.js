@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkproject_wiki=self.webpackChunkproject_wiki||[]).push([[7472],{5513:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Getting Started with Python","permalink":"/project-wiki/blog/getting-started-with-python","unlisted":false,"date":"2025-06-28T12:27:02.000Z"}]}')}}]);
