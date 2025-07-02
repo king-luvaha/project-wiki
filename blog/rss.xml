@@ -4,7 +4,7 @@
         <title>MekSense Blog</title>
         <link>https://king-luvaha.github.io/project-wiki/blog</link>
         <description>MekSense Blog</description>
-        <lastBuildDate>Wed, 02 Jul 2025 14:38:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Jul 2025 14:46:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
             <link>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</link>
             <guid>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</guid>
-            <pubDate>Wed, 02 Jul 2025 14:38:55 GMT</pubDate>
+            <pubDate>Wed, 02 Jul 2025 14:46:19 GMT</pubDate>
             <description><![CDATA[---]]></description>
             <content:encoded><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
@@ -104,9 +104,8 @@
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-lets-connect">🔗 Let's Connect<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-lets-connect" class="hash-link" aria-label="Direct link to 🔗 Let's Connect" title="Direct link to 🔗 Let's Connect">​</a></h2>
 <ul>
-<li><strong>GitHub</strong>: <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">@yourusername</a></li>
-<li><strong>Twitter</strong>: <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">@yourhandle</a></li>
-<li><strong>Portfolio</strong>: <a href="https://yourwebsite.com/" target="_blank" rel="noopener noreferrer">yourwebsite.com</a></li>
+<li><strong>GitHub</strong>: <a href="https://github.com/king-luvaha" target="_blank" rel="noopener noreferrer">king-luvaha</a></li>
+<li><strong>Portfolio</strong>: <a href="https://portfolio-website-luvaha.vercel.app/" target="_blank" rel="noopener noreferrer">Website</a></li>
 </ul>
 <hr>]]></content:encoded>
             <category>Pygame</category>
@@ -119,7 +118,7 @@
             <title><![CDATA[Getting Started with Python]]></title>
             <link>https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python</link>
             <guid>https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python</guid>
-            <pubDate>Wed, 02 Jul 2025 14:38:55 GMT</pubDate>
+            <pubDate>Wed, 02 Jul 2025 14:46:19 GMT</pubDate>
             <description><![CDATA[Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.]]></description>
             <content:encoded><![CDATA[<p>Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.</p>
 <p>In this blog post, we'll explore what makes Python so powerful, why you should learn it, and how to get started writing your first Python program.</p>
