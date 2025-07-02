@@ -2,16 +2,214 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://king-luvaha.github.io/project-wiki/blog</id>
     <title>MekSense Blog</title>
-    <updated>2025-06-28T12:27:02.000Z</updated>
+    <updated>2025-07-02T14:33:07.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://king-luvaha.github.io/project-wiki/blog"/>
     <subtitle>MekSense Blog</subtitle>
     <icon>https://king-luvaha.github.io/project-wiki/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
+        <id>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</id>
+        <link href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game"/>
+        <updated>2025-07-02T14:33:07.000Z</updated>
+        <summary type="html"><![CDATA[---]]></summary>
+        <content type="html"><![CDATA[<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
+<p>Ever dreamed of making your own 2D platformer game from scratch — one that includes <strong>custom physics, enemies, particles, and even a level editor</strong>? I did too. That's why I built <strong>"Ninja Game"</strong>, a pixel-art style platformer written entirely in Python using <strong>Pygame</strong>.</p>
+<p>In this post, I’ll walk you through how I designed and implemented a 2D platformer with an integrated <strong>tile-based map editor</strong>, sprite animation system, and basic AI — all while keeping the project organized and extensible.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-why-i-built-a-level-editor">🧱 Why I Built a Level Editor<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-why-i-built-a-level-editor" class="hash-link" aria-label="Direct link to 🧱 Why I Built a Level Editor" title="Direct link to 🧱 Why I Built a Level Editor">​</a></h2>
+<p>Game development is more than just jumping and shooting — it’s about designing the world. So I built a <strong>tilemap editor</strong> that allows me to:</p>
+<ul>
+<li>
+<p>Place tiles from grouped assets (grass, stone, decor, etc.)</p>
+</li>
+<li>
+<p>Use scrollable canvas to design large levels</p>
+</li>
+<li>
+<p>Add enemies or decorations as "offgrid" tiles</p>
+</li>
+<li>
+<p>Save/load levels using JSON</p>
+</li>
+</ul>
+<blockquote>
+<p>🔁 The level editor also features mouse-wheel tile selection and simple <code>autotile</code> support for better visuals.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-key-features">🚀 Key Features<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-key-features" class="hash-link" aria-label="Direct link to 🚀 Key Features" title="Direct link to 🚀 Key Features">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-core-gameplay">✅ Core Gameplay<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-core-gameplay" class="hash-link" aria-label="Direct link to ✅ Core Gameplay" title="Direct link to ✅ Core Gameplay">​</a></h3>
+<ul>
+<li>
+<p>Responsive platformer mechanics with double jump and wall slide</p>
+</li>
+<li>
+<p>Dashing system that creates spark and particle trails</p>
+</li>
+<li>
+<p>Enemies that patrol and shoot based on player distance</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-entities">🧠 Entities<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-entities" class="hash-link" aria-label="Direct link to 🧠 Entities" title="Direct link to 🧠 Entities">​</a></h3>
+<ul>
+<li>
+<p><strong>Player</strong>: Dashing, jumping, wall sliding, and flipping</p>
+</li>
+<li>
+<p><strong>Enemy</strong>: AI-based shooting behavior and knockback when hit</p>
+</li>
+<li>
+<p><strong>Particles</strong>: For leaves, sparks, and hit effects</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-tools-and-utilities">🧰 Tools and Utilities<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-tools-and-utilities" class="hash-link" aria-label="Direct link to 🧰 Tools and Utilities" title="Direct link to 🧰 Tools and Utilities">​</a></h3>
+<ul>
+<li>
+<p><strong><code>Animation</code> class</strong> for smooth sprite transitions</p>
+</li>
+<li>
+<p><strong><code>Tilemap</code> system</strong> for both grid and off-grid objects</p>
+</li>
+<li>
+<p><strong>Asset loader</strong> using <code>load_images()</code> and <code>load_image()</code> utilities</p>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-map-editing-tips-and-gotchas">🗺️ Map Editing: Tips and Gotchas<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#%EF%B8%8F-map-editing-tips-and-gotchas" class="hash-link" aria-label="Direct link to 🗺️ Map Editing: Tips and Gotchas" title="Direct link to 🗺️ Map Editing: Tips and Gotchas">​</a></h2>
+<p>When working in <code>editor.py</code>, keep the following in mind:</p>
+<ul>
+<li>
+<p><strong>Offgrid Placement</strong>: Objects like <code>decor</code>, <code>spawners</code>, or <code>enemy</code> must be placed <strong>offgrid</strong> using <code>G</code> key toggle. On-grid placement will crash the game during runtime.</p>
+</li>
+<li>
+<p><strong>Player Spawn Point</strong>: Manually place a <code>player</code> entity <strong>offgrid</strong> near the level’s start. Otherwise, the player may respawn at the wrong location (like the death spot) after getting hit.</p>
+</li>
+</ul>
+<p>The editor is fully mouse-driven and supports save/load via the <code>O</code> key.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-folder-structure">📁 Folder Structure<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-folder-structure" class="hash-link" aria-label="Direct link to 📁 Folder Structure" title="Direct link to 📁 Folder Structure">​</a></h2>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ninja_game/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── data/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── images/          # Sprites (player, enemy, tiles, etc.)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── maps/            # JSON level files</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── sfx/             # Sound effects</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   └── music.wav        # Background music</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── scripts/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── clouds.py        # Parallax clouds system</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── entities.py      # PhysicsEntity, Player, Enemy</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── particle.py      # Particle rendering</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── spark.py         # Sparks from dashing and shooting</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── tilemap.py       # Map rendering and saving</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   └── utils.py         # Asset loading and animation</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── editor.py            # Level editor (run separately)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── game.py              # Main game logic and loop</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└── map.json             # Default map file</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-controls">🕹️ Controls<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#%EF%B8%8F-controls" class="hash-link" aria-label="Direct link to 🕹️ Controls" title="Direct link to 🕹️ Controls">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="in-game-gamepy">In Game (<code>game.py</code>)<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#in-game-gamepy" class="hash-link" aria-label="Direct link to in-game-gamepy" title="Direct link to in-game-gamepy">​</a></h3>
+<ul>
+<li>
+<p><strong>A / D / W / S</strong> — Move</p>
+</li>
+<li>
+<p><strong>J</strong> — Jump (with wall jump and double jump)</p>
+</li>
+<li>
+<p><strong>K</strong> — Dash</p>
+</li>
+<li>
+<p><strong>ESC</strong> — Quit</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="in-editor-editorpy">In Editor (<code>editor.py</code>)<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#in-editor-editorpy" class="hash-link" aria-label="Direct link to in-editor-editorpy" title="Direct link to in-editor-editorpy">​</a></h3>
+<ul>
+<li>
+<p><strong>Mouse Left Click</strong> — Place tile</p>
+</li>
+<li>
+<p><strong>Mouse Right Click</strong> — Delete tile</p>
+</li>
+<li>
+<p><strong>Scroll Wheel</strong> — Change tile group or variant</p>
+</li>
+<li>
+<p><strong>G</strong> — Toggle ongrid / offgrid placement</p>
+</li>
+<li>
+<p><strong>O</strong> — Save map to <code>map.json</code></p>
+</li>
+<li>
+<p><strong>T</strong> — Run <code>autotile()</code> for smoother edge tiles</p>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-what-i-learned">🔨 What I Learned<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-what-i-learned" class="hash-link" aria-label="Direct link to 🔨 What I Learned" title="Direct link to 🔨 What I Learned">​</a></h2>
+<ul>
+<li>
+<p>Handling collisions frame-by-frame using bounding rectangles</p>
+</li>
+<li>
+<p>Building reusable animation systems</p>
+</li>
+<li>
+<p>Managing parallax with varying cloud depths</p>
+</li>
+<li>
+<p>Designing for extensibility with asset-based organization</p>
+</li>
+<li>
+<p>JSON as a lightweight map format</p>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-future-improvements">📦 Future Improvements<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-future-improvements" class="hash-link" aria-label="Direct link to 📦 Future Improvements" title="Direct link to 📦 Future Improvements">​</a></h2>
+<ul>
+<li>
+<p>Add GUI tile picker to the editor</p>
+</li>
+<li>
+<p>Camera shake during explosions</p>
+</li>
+<li>
+<p>Boss fights with multiple attack patterns</p>
+</li>
+<li>
+<p>Exporting maps to external game engines</p>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-final-thoughts">💬 Final Thoughts<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-final-thoughts" class="hash-link" aria-label="Direct link to 💬 Final Thoughts" title="Direct link to 💬 Final Thoughts">​</a></h2>
+<p>This project was a powerful learning experience in <strong>game architecture, data-driven design, and asset management</strong>. If you're looking to get into Python game development, Pygame is a great place to start.</p>
+<p>Check out the full source code on GitHub:</p>
+<p>👉 <a href="https://github.com/yourusername/ninja_game" target="_blank" rel="noopener noreferrer"><strong>GitHub Repo: Ninja Game</strong></a></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-lets-connect">🔗 Let's Connect<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-lets-connect" class="hash-link" aria-label="Direct link to 🔗 Let's Connect" title="Direct link to 🔗 Let's Connect">​</a></h2>
+<ul>
+<li>
+<p><strong>GitHub</strong>: <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">@yourusername</a></p>
+</li>
+<li>
+<p><strong>Twitter</strong>: <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">@yourhandle</a></p>
+</li>
+<li>
+<p><strong>Portfolio</strong>: <a href="https://yourwebsite.com/" target="_blank" rel="noopener noreferrer">yourwebsite.com</a></p>
+</li>
+</ul>
+<hr>
+<p>Would you like me to:</p>
+<ul>
+<li>
+<p>Add code snippets to the blog?</p>
+</li>
+<li>
+<p>Tailor this for a specific platform like Medium or Dev.to?</p>
+</li>
+<li>
+<p>Create a Markdown file version for direct publishing?</p>
+</li>
+</ul>
+<p>Let me know, and I’ll prepare it for you.</p>]]></content>
+        <author>
+            <name>Ezra Luvaha</name>
+            <uri>https://portfolio-website-luvaha.vercel.app/</uri>
+        </author>
+        <category label="Pygame" term="Pygame"/>
+        <category label="GameDev" term="GameDev"/>
+        <category label="Python" term="Python"/>
+        <category label="2D" term="2D"/>
+        <category label="Ninja_Game" term="Ninja_Game"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Getting Started with Python]]></title>
         <id>https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python</id>
         <link href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python"/>
-        <updated>2025-06-28T12:27:02.000Z</updated>
+        <updated>2025-07-02T14:33:07.000Z</updated>
         <summary type="html"><![CDATA[Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.]]></summary>
         <content type="html"><![CDATA[<p>Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.</p>
 <p>In this blog post, we'll explore what makes Python so powerful, why you should learn it, and how to get started writing your first Python program.</p>
