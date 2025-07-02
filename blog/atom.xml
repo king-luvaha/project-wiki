@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://king-luvaha.github.io/project-wiki/blog</id>
     <title>MekSense Blog</title>
-    <updated>2025-07-02T14:46:19.000Z</updated>
+    <updated>2025-07-02T14:55:45.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://king-luvaha.github.io/project-wiki/blog"/>
     <subtitle>MekSense Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
         <id>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</id>
         <link href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game"/>
-        <updated>2025-07-02T14:46:19.000Z</updated>
+        <updated>2025-07-02T14:55:45.000Z</updated>
         <summary type="html"><![CDATA[---]]></summary>
         <content type="html"><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
@@ -99,7 +99,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-final-thoughts">💬 Final Thoughts<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-final-thoughts" class="hash-link" aria-label="Direct link to 💬 Final Thoughts" title="Direct link to 💬 Final Thoughts">​</a></h2>
 <p>This project was a powerful learning experience in <strong>game architecture, data-driven design, and asset management</strong>. If you're looking to get into Python game development, Pygame is a great place to start.</p>
 <p>Check out the full source code on GitHub:</p>
-<p>👉 <a href="https://github.com/yourusername/ninja_game" target="_blank" rel="noopener noreferrer"><strong>GitHub Repo: Ninja Game</strong></a></p>
+<p>👉 <a href="https://github.com/king-luvaha/ninja-game" target="_blank" rel="noopener noreferrer"><strong>GitHub Repo: Ninja Game</strong></a></p>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-lets-connect">🔗 Let's Connect<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-lets-connect" class="hash-link" aria-label="Direct link to 🔗 Let's Connect" title="Direct link to 🔗 Let's Connect">​</a></h2>
 <ul>
@@ -121,7 +121,7 @@
         <title type="html"><![CDATA[Getting Started with Python]]></title>
         <id>https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python</id>
         <link href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python"/>
-        <updated>2025-07-02T14:46:19.000Z</updated>
+        <updated>2025-07-02T14:55:45.000Z</updated>
         <summary type="html"><![CDATA[Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.]]></summary>
         <content type="html"><![CDATA[<p>Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.</p>
 <p>In this blog post, we'll explore what makes Python so powerful, why you should learn it, and how to get started writing your first Python program.</p>
