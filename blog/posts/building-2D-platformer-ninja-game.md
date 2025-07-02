@@ -134,7 +134,7 @@ This project was a powerful learning experience in **game architecture, data-dri
 
 Check out the full source code on GitHub:
 
-👉 [**GitHub Repo: Ninja Game**](https://github.com/yourusername/ninja_game)
+👉 [**GitHub Repo: Ninja Game**](https://github.com/king-luvaha/ninja-game)
 
 ---
 
