@@ -25,13 +25,9 @@ In this post, I’ll walk you through how I designed and implemented a 2D platfo
 Game development is more than just jumping and shooting — it’s about designing the world. So I built a **tilemap editor** that allows me to:
 
 - Place tiles from grouped assets (grass, stone, decor, etc.)
-    
 - Use scrollable canvas to design large levels
-    
 - Add enemies or decorations as "offgrid" tiles
-    
-- Save/load levels using JSON
-    
+- Save/load levels using JSON 
 
 > 🔁 The level editor also features mouse-wheel tile selection and simple `autotile` support for better visuals.
 
@@ -41,30 +37,21 @@ Game development is more than just jumping and shooting — it’s about designi
 
 ### ✅ Core Gameplay
 
-- Responsive platformer mechanics with double jump and wall slide
-    
-- Dashing system that creates spark and particle trails
-    
-- Enemies that patrol and shoot based on player distance
-    
+- Responsive platformer mechanics with double jump and wall slide  
+- Dashing system that creates spark and particle trails   
+- Enemies that patrol and shoot based on player distance  
 
 ### 🧠 Entities
 
-- **Player**: Dashing, jumping, wall sliding, and flipping
-    
+- **Player**: Dashing, jumping, wall sliding, and flipping 
 - **Enemy**: AI-based shooting behavior and knockback when hit
-    
 - **Particles**: For leaves, sparks, and hit effects
-    
 
 ### 🧰 Tools and Utilities
 
 - **`Animation` class** for smooth sprite transitions
-    
 - **`Tilemap` system** for both grid and off-grid objects
-    
-- **Asset loader** using `load_images()` and `load_image()` utilities
-    
+- **Asset loader** using `load_images()` and `load_image()` utilities 
 
 ---
 
@@ -72,10 +59,8 @@ Game development is more than just jumping and shooting — it’s about designi
 
 When working in `editor.py`, keep the following in mind:
 
-- **Offgrid Placement**: Objects like `decor`, `spawners`, or `enemy` must be placed **offgrid** using `G` key toggle. On-grid placement will crash the game during runtime.
-    
+- **Offgrid Placement**: Objects like `decor`, `spawners`, or `enemy` must be placed **offgrid** using `G` key toggle. On-grid placement will crash the game during runtime.  
 - **Player Spawn Point**: Manually place a `player` entity **offgrid** near the level’s start. Otherwise, the player may respawn at the wrong location (like the death spot) after getting hit.
-    
 
 The editor is fully mouse-driven and supports save/load via the `O` key.
 
@@ -108,57 +93,38 @@ ninja_game/
 
 ### In Game (`game.py`)
 
-- **A / D / W / S** — Move
-    
-- **J** — Jump (with wall jump and double jump)
-    
-- **K** — Dash
-    
-- **ESC** — Quit
-    
+- **A / D / W / S** — Move  
+- **J** — Jump (with wall jump and double jump) 
+- **K** — Dash 
+- **ESC** — Quit 
 
 ### In Editor (`editor.py`)
 
 - **Mouse Left Click** — Place tile
-    
 - **Mouse Right Click** — Delete tile
-    
 - **Scroll Wheel** — Change tile group or variant
-    
 - **G** — Toggle ongrid / offgrid placement
-    
 - **O** — Save map to `map.json`
-    
-- **T** — Run `autotile()` for smoother edge tiles
-    
+- **T** — Run `autotile()` for smoother edge tiles 
 
 ---
 
 ## 🔨 What I Learned
 
 - Handling collisions frame-by-frame using bounding rectangles
-    
 - Building reusable animation systems
-    
 - Managing parallax with varying cloud depths
-    
 - Designing for extensibility with asset-based organization
-    
 - JSON as a lightweight map format
-    
 
 ---
 
 ## 📦 Future Improvements
 
 - Add GUI tile picker to the editor
-    
 - Camera shake during explosions
-    
 - Boss fights with multiple attack patterns
-    
-- Exporting maps to external game engines
-    
+- Exporting maps to external game engines  
 
 ---
 
@@ -175,21 +141,9 @@ Check out the full source code on GitHub:
 ## 🔗 Let's Connect
 
 - **GitHub**: [@yourusername](https://github.com/yourusername)
-    
 - **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
-    
 - **Portfolio**: [yourwebsite.com](https://yourwebsite.com)
     
 
 ---
 
-Would you like me to:
-
-- Add code snippets to the blog?
-    
-- Tailor this for a specific platform like Medium or Dev.to?
-    
-- Create a Markdown file version for direct publishing?
-    
-
-Let me know, and I’ll prepare it for you.
