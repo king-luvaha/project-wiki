@@ -140,9 +140,8 @@ Check out the full source code on GitHub:
 
 ## 🔗 Let's Connect
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
-- **Portfolio**: [yourwebsite.com](https://yourwebsite.com)
+- **GitHub**: [king-luvaha](https://github.com/king-luvaha)
+- **Portfolio**: [Website](https://portfolio-website-luvaha.vercel.app/)
     
 
 ---
