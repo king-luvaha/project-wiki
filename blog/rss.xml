@@ -4,7 +4,7 @@
         <title>MekSense Blog</title>
         <link>https://king-luvaha.github.io/project-wiki/blog</link>
         <description>MekSense Blog</description>
-        <lastBuildDate>Thu, 10 Jul 2025 14:41:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Jul 2025 14:44:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[🧠 Choosing Between venv, virtualenv, and virtualenvwrapper: A Developer’s Decision Tree with Full Platform Setup Guide]]></title>
             <link>https://king-luvaha.github.io/project-wiki/blog/python-venv-vs-virtualenvwrapper-complete-setup-guide</link>
             <guid>https://king-luvaha.github.io/project-wiki/blog/python-venv-vs-virtualenvwrapper-complete-setup-guide</guid>
-            <pubDate>Thu, 10 Jul 2025 14:41:09 GMT</pubDate>
+            <pubDate>Thu, 10 Jul 2025 14:44:38 GMT</pubDate>
             <description><![CDATA[---]]></description>
             <content:encoded><![CDATA[<hr>
 <p>If you’re a Python developer, you’ve likely encountered the need to isolate dependencies for each project. That’s where <strong>virtual environments</strong> come in. But with tools like <code>venv</code>, <code>virtualenv</code>, and <code>virtualenvwrapper</code> floating around, which one should you use?</p>
@@ -113,7 +113,7 @@
             <title><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
             <link>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</link>
             <guid>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</guid>
-            <pubDate>Thu, 10 Jul 2025 14:41:09 GMT</pubDate>
+            <pubDate>Thu, 10 Jul 2025 14:44:38 GMT</pubDate>
             <description><![CDATA[---]]></description>
             <content:encoded><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
@@ -219,7 +219,7 @@
             <title><![CDATA[Getting Started with Python]]></title>
             <link>https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python</link>
             <guid>https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python</guid>
-            <pubDate>Thu, 10 Jul 2025 14:41:09 GMT</pubDate>
+            <pubDate>Thu, 10 Jul 2025 14:44:38 GMT</pubDate>
             <description><![CDATA[Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.]]></description>
             <content:encoded><![CDATA[<p>Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.</p>
 <p>In this blog post, we'll explore what makes Python so powerful, why you should learn it, and how to get started writing your first Python program.</p>
