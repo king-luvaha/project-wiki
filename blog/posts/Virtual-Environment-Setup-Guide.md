@@ -5,10 +5,11 @@ authors: luvaha
 tags:
   - Python
   - python-tutorial
+  - venv
   - virtualenv
   - virtualenvwrapper
   - developer-tools
-  - venv
+date: 2025-07-10
 ---
 ---
 
