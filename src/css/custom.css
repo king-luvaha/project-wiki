@@ -28,3 +28,15 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Widen the right-hand Table of Contents */
+.theme-doc-toc-desktop {
+  flex-basis: 300px; /* default is ~200px */
+  max-width: 320px;
+}
+
+@media (min-width: 997px) {
+  .theme-doc-main-container {
+    grid-template-columns: 2fr 1fr; /* wider content + ToC */
+  }
+}
