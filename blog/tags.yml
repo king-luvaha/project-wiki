@@ -13,6 +13,31 @@ python:
   permalink: /python
   description: Learn Python programming, tutorials, and tips
 
+python-tutorial:
+  label: Python Tutorial
+  permalink: /python-tutorial
+  description: Python tutorials and educational content
+
+venv:
+  label: venv
+  permalink: /venv
+  description: Python virtual environments using venv
+
+virtualenv:
+  label: virtualenv
+  permalink: /virtualenv
+  description: Python virtual environments using virtualenv
+
+virtualenvwrapper:
+  label: virtualenvwrapper
+  permalink: /virtualenvwrapper
+  description: Wrapper tools for managing virtualenvs
+
+developer-tools:
+  label: Developer Tools
+  permalink: /developer-tools
+  description: Useful tools and setups for developers
+
 beginner:
   label: Beginner
   permalink: /beginner
@@ -22,3 +47,23 @@ programming:
   label: Programming
   permalink: /programming
   description: Posts related to coding, software development, and engineering
+
+Pygame:
+  label: Pygame
+  permalink: /pygame
+  description: Game development using the Pygame library
+
+GameDev:
+  label: Game Development
+  permalink: /gamedev
+  description: Tutorials and resources for building games
+
+2D:
+  label: 2D Games
+  permalink: /2d
+  description: Side-scrollers, platformers, and other 2D games
+
+Ninja_Game:
+  label: Ninja Game
+  permalink: /ninja-game
+  description: Posts related to building ninja-themed platformers
