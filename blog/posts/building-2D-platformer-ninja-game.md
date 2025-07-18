@@ -20,6 +20,8 @@ In this post, I’ll walk you through how I designed and implemented a 2D platfo
 
 ---
 
+<!--truncate-->
+
 ## 🧱 Why I Built a Level Editor
 
 Game development is more than just jumping and shooting — it’s about designing the world. So I built a **tilemap editor** that allows me to:

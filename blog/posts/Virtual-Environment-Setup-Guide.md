@@ -19,6 +19,8 @@ In this post, we’ll explain what each tool does, when to use it, and provide p
 
 ---
 
+<!--truncate-->
+
 ## 🐍 What Is a Virtual Environment?
 
 A **virtual environment** is a self-contained directory that contains a Python interpreter and all the packages your project needs — isolated from your system-wide Python.
