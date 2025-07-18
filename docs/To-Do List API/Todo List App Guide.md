@@ -933,7 +933,12 @@ http://127.0.0.1:8000
 
 ### ✅ 6. Update a To-Do Item
 
-**PUT** `/todos/{todo_id}
+**PUT** 
+
+```
+/todos/{todo_id}
+```
+
 - **URL:** `/todos/1`
 - **Headers:** `Authorization: Bearer <access_token>`
 - **Body:**
@@ -951,7 +956,11 @@ http://127.0.0.1:8000
 
 ### ✅ 7. Delete a To-Do
 
-**DELETE** `/todos/{todo_id}`
+**DELETE**
+
+```
+/todos/{todo_id}
+```
 - **URL:** `/todos/1`
 - **Headers:** `Authorization: Bearer <access_token>`
 

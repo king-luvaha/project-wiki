@@ -1,7 +1,16 @@
 {
     "cSpell.words": [
+        "ASGI",
         "gamedev",
+        "getattr",
+        "httpx",
         "platformers",
-        "scrollers"
+        "scrollers",
+        "setattr",
+        "slowapi",
+        "startswith",
+        "tablename",
+        "timedelta",
+        "utcnow"
     ]
 }
