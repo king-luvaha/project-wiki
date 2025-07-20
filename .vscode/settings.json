@@ -9,8 +9,10 @@
         "setattr",
         "slowapi",
         "startswith",
+        "Streamlit",
         "tablename",
         "timedelta",
-        "utcnow"
+        "utcnow",
+        "WSGI"
     ]
 }
