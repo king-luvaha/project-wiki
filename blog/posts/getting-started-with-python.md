@@ -3,6 +3,7 @@ slug: getting-started-with-python
 title: Getting Started with Python
 authors: luvaha
 tags: [python, beginner, programming]
+date: 2025-06-27
 ---
 
 Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.
