@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://king-luvaha.github.io/project-wiki/blog</id>
     <title>MekSense Blog</title>
-    <updated>2025-07-20T19:57:02.000Z</updated>
+    <updated>2025-07-20T20:05:49.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://king-luvaha.github.io/project-wiki/blog"/>
     <subtitle>MekSense Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
         <id>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</id>
         <link href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game"/>
-        <updated>2025-07-20T19:57:02.000Z</updated>
+        <updated>2025-07-20T20:05:49.000Z</updated>
         <summary type="html"><![CDATA[---]]></summary>
         <content type="html"><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
@@ -116,63 +116,6 @@
         <category label="Python" term="Python"/>
         <category label="2D Games" term="2D Games"/>
         <category label="Ninja Game" term="Ninja Game"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Getting Started with Python]]></title>
-        <id>https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python</id>
-        <link href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python"/>
-        <updated>2025-07-20T19:57:02.000Z</updated>
-        <summary type="html"><![CDATA[Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.]]></summary>
-        <content type="html"><![CDATA[<p>Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.</p>
-<p>In this blog post, we'll explore what makes Python so powerful, why you should learn it, and how to get started writing your first Python program.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-why-learn-python">🚀 Why Learn Python?<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#-why-learn-python" class="hash-link" aria-label="Direct link to 🚀 Why Learn Python?" title="Direct link to 🚀 Why Learn Python?">​</a></h2>
-<ul>
-<li><strong>Easy to Read and Write</strong>: Python uses simple syntax similar to English.</li>
-<li><strong>Huge Community</strong>: A massive community means lots of tutorials, libraries, and support.</li>
-<li><strong>Versatile</strong>: Use it for web apps, AI, data analysis, games, automation, and more.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-setting-up-python">🛠️ Setting Up Python<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#%EF%B8%8F-setting-up-python" class="hash-link" aria-label="Direct link to 🛠️ Setting Up Python" title="Direct link to 🛠️ Setting Up Python">​</a></h2>
-<ol>
-<li>Download Python from the <a href="https://python.org/" target="_blank" rel="noopener noreferrer">official site</a>.</li>
-<li>Install an editor like VS Code or PyCharm.</li>
-<li>Open your terminal or command prompt and type:</li>
-</ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">python --version</span><br></span></code></pre></div></div>
-<p>You should see something like <code>Python 3.x.x</code>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-your-first-python-program">✍️ Your First Python Program<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#%EF%B8%8F-your-first-python-program" class="hash-link" aria-label="Direct link to ✍️ Your First Python Program" title="Direct link to ✍️ Your First Python Program">​</a></h2>
-<p>Create a new file called <code>hello.py</code> and add:</p>
-<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Hello, world!"</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre></div></div>
-<p>Then run it in your terminal:</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">python hello.py</span><br></span></code></pre></div></div>
-<p>You should see:</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Hello, world!</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-exploring-python-packages">📦 Exploring Python Packages<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#-exploring-python-packages" class="hash-link" aria-label="Direct link to 📦 Exploring Python Packages" title="Direct link to 📦 Exploring Python Packages">​</a></h2>
-<p>You can install third-party libraries using <code>pip</code>, Python’s package manager:</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pip install requests</span><br></span></code></pre></div></div>
-<p>Then use it in your code:</p>
-<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> requests</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">response </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> requests</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">get</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"https://api.github.com"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">response</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">json</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-tips-for-beginners">🧠 Tips for Beginners<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#-tips-for-beginners" class="hash-link" aria-label="Direct link to 🧠 Tips for Beginners" title="Direct link to 🧠 Tips for Beginners">​</a></h2>
-<ul>
-<li>Practice small projects daily.</li>
-<li>Read other people’s code.</li>
-<li>Ask questions on forums like Stack Overflow.</li>
-<li>Explore Python packages on <a href="https://pypi.org/" target="_blank" rel="noopener noreferrer">PyPI</a>.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-useful-resources">📚 Useful Resources<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#-useful-resources" class="hash-link" aria-label="Direct link to 📚 Useful Resources" title="Direct link to 📚 Useful Resources">​</a></h2>
-<ul>
-<li><a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer">Python Docs</a></li>
-<li><a href="https://realpython.com/" target="_blank" rel="noopener noreferrer">Real Python</a></li>
-<li><a href="https://automatetheboringstuff.com/" target="_blank" rel="noopener noreferrer">Automate the Boring Stuff</a></li>
-</ul>
-<hr>
-<p>Happy coding! Python is a great language to start your programming journey and build amazing things.</p>]]></content>
-        <author>
-            <name>Ezra Luvaha</name>
-            <uri>https://portfolio-website-luvaha.vercel.app/</uri>
-        </author>
-        <category label="Python" term="Python"/>
-        <category label="Beginner" term="Beginner"/>
-        <category label="Programming" term="Programming"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[7 Python Web Development Frameworks for Data Scientists]]></title>
@@ -384,5 +327,62 @@
         <category label="virtualenv" term="virtualenv"/>
         <category label="virtualenvwrapper" term="virtualenvwrapper"/>
         <category label="Developer Tools" term="Developer Tools"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting Started with Python]]></title>
+        <id>https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python</id>
+        <link href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python"/>
+        <updated>2025-06-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.]]></summary>
+        <content type="html"><![CDATA[<p>Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.</p>
+<p>In this blog post, we'll explore what makes Python so powerful, why you should learn it, and how to get started writing your first Python program.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-why-learn-python">🚀 Why Learn Python?<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#-why-learn-python" class="hash-link" aria-label="Direct link to 🚀 Why Learn Python?" title="Direct link to 🚀 Why Learn Python?">​</a></h2>
+<ul>
+<li><strong>Easy to Read and Write</strong>: Python uses simple syntax similar to English.</li>
+<li><strong>Huge Community</strong>: A massive community means lots of tutorials, libraries, and support.</li>
+<li><strong>Versatile</strong>: Use it for web apps, AI, data analysis, games, automation, and more.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-setting-up-python">🛠️ Setting Up Python<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#%EF%B8%8F-setting-up-python" class="hash-link" aria-label="Direct link to 🛠️ Setting Up Python" title="Direct link to 🛠️ Setting Up Python">​</a></h2>
+<ol>
+<li>Download Python from the <a href="https://python.org/" target="_blank" rel="noopener noreferrer">official site</a>.</li>
+<li>Install an editor like VS Code or PyCharm.</li>
+<li>Open your terminal or command prompt and type:</li>
+</ol>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">python --version</span><br></span></code></pre></div></div>
+<p>You should see something like <code>Python 3.x.x</code>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-your-first-python-program">✍️ Your First Python Program<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#%EF%B8%8F-your-first-python-program" class="hash-link" aria-label="Direct link to ✍️ Your First Python Program" title="Direct link to ✍️ Your First Python Program">​</a></h2>
+<p>Create a new file called <code>hello.py</code> and add:</p>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Hello, world!"</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre></div></div>
+<p>Then run it in your terminal:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">python hello.py</span><br></span></code></pre></div></div>
+<p>You should see:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Hello, world!</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-exploring-python-packages">📦 Exploring Python Packages<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#-exploring-python-packages" class="hash-link" aria-label="Direct link to 📦 Exploring Python Packages" title="Direct link to 📦 Exploring Python Packages">​</a></h2>
+<p>You can install third-party libraries using <code>pip</code>, Python’s package manager:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pip install requests</span><br></span></code></pre></div></div>
+<p>Then use it in your code:</p>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> requests</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">response </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> requests</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">get</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"https://api.github.com"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">response</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">json</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-tips-for-beginners">🧠 Tips for Beginners<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#-tips-for-beginners" class="hash-link" aria-label="Direct link to 🧠 Tips for Beginners" title="Direct link to 🧠 Tips for Beginners">​</a></h2>
+<ul>
+<li>Practice small projects daily.</li>
+<li>Read other people’s code.</li>
+<li>Ask questions on forums like Stack Overflow.</li>
+<li>Explore Python packages on <a href="https://pypi.org/" target="_blank" rel="noopener noreferrer">PyPI</a>.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-useful-resources">📚 Useful Resources<a href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python#-useful-resources" class="hash-link" aria-label="Direct link to 📚 Useful Resources" title="Direct link to 📚 Useful Resources">​</a></h2>
+<ul>
+<li><a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer">Python Docs</a></li>
+<li><a href="https://realpython.com/" target="_blank" rel="noopener noreferrer">Real Python</a></li>
+<li><a href="https://automatetheboringstuff.com/" target="_blank" rel="noopener noreferrer">Automate the Boring Stuff</a></li>
+</ul>
+<hr>
+<p>Happy coding! Python is a great language to start your programming journey and build amazing things.</p>]]></content>
+        <author>
+            <name>Ezra Luvaha</name>
+            <uri>https://portfolio-website-luvaha.vercel.app/</uri>
+        </author>
+        <category label="Python" term="Python"/>
+        <category label="Beginner" term="Beginner"/>
+        <category label="Programming" term="Programming"/>
     </entry>
 </feed>
