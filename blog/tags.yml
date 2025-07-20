@@ -67,3 +67,44 @@ Ninja_Game:
   label: Ninja Game
   permalink: /ninja-game
   description: Posts related to building ninja-themed platformers
+
+Frameworks:
+  label: Web Frameworks
+  permalink: /frameworks
+  description: Web development frameworks commonly used in Python
+
+Django:
+  label: Django
+  permalink: /django
+  description: High-level Python web framework for rapid development
+
+Flask:
+  label: Flask
+  permalink: /flask
+  description: Lightweight WSGI web application framework in Python
+
+FastAPI:
+  label: FastAPI
+  permalink: /fastapi
+  description: High-performance Python framework for building APIs with async support
+
+Gradio:
+  label: Gradio
+  permalink: /gradio
+  description: Framework for creating machine learning web apps and demos
+
+Streamlit:
+  label: Streamlit
+  permalink: /streamlit
+  description: Fast way to build and share data apps in Python
+
+Tornado:
+  label: Tornado
+  permalink: /tornado
+  description: Scalable, non-blocking web server and web framework for Python
+
+Reflex:
+  label: Reflex
+  permalink: /reflex
+  description: Modern Python framework for building interactive web apps
+
