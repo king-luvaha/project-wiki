@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://king-luvaha.github.io/project-wiki/blog</id>
     <title>MekSense Blog</title>
-    <updated>2025-07-20T19:56:32.000Z</updated>
+    <updated>2025-07-20T19:57:02.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://king-luvaha.github.io/project-wiki/blog"/>
     <subtitle>MekSense Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
         <id>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</id>
         <link href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game"/>
-        <updated>2025-07-20T19:56:32.000Z</updated>
+        <updated>2025-07-20T19:57:02.000Z</updated>
         <summary type="html"><![CDATA[---]]></summary>
         <content type="html"><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
@@ -121,7 +121,7 @@
         <title type="html"><![CDATA[Getting Started with Python]]></title>
         <id>https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python</id>
         <link href="https://king-luvaha.github.io/project-wiki/blog/getting-started-with-python"/>
-        <updated>2025-07-20T19:56:32.000Z</updated>
+        <updated>2025-07-20T19:57:02.000Z</updated>
         <summary type="html"><![CDATA[Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.]]></summary>
         <content type="html"><![CDATA[<p>Python is one of the most popular and beginner-friendly programming languages in the world. It is widely used in web development, data science, automation, artificial intelligence, and more.</p>
 <p>In this blog post, we'll explore what makes Python so powerful, why you should learn it, and how to get started writing your first Python program.</p>
@@ -173,6 +173,112 @@
         <category label="Python" term="Python"/>
         <category label="Beginner" term="Beginner"/>
         <category label="Programming" term="Programming"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7 Python Web Development Frameworks for Data Scientists]]></title>
+        <id>https://king-luvaha.github.io/project-wiki/blog/7-python-web-development-frameworks-for-data-scientists</id>
+        <link href="https://king-luvaha.github.io/project-wiki/blog/7-python-web-development-frameworks-for-data-scientists"/>
+        <updated>2025-07-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[---]]></summary>
+        <content type="html"><![CDATA[<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="python-web-development-frameworks-a-comprehensive-guide">Python Web Development Frameworks: A Comprehensive Guide<a href="https://king-luvaha.github.io/project-wiki/blog/7-python-web-development-frameworks-for-data-scientists#python-web-development-frameworks-a-comprehensive-guide" class="hash-link" aria-label="Direct link to Python Web Development Frameworks: A Comprehensive Guide" title="Direct link to Python Web Development Frameworks: A Comprehensive Guide">​</a></h2>
+<p>Python is a top choice for web developers thanks to its straightforward syntax, emphasis on readability, and an expansive array of frameworks and tools. The language appeals to both beginners and seasoned pros, powering everything from rapid prototypes to robust, full-scale applications. Below, we review seven of the most popular Python web frameworks—each offering unique strengths to help you efficiently bring your project to life.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-django-the-full-stack-powerhouse">1. Django: The Full-Stack Powerhouse<a href="https://king-luvaha.github.io/project-wiki/blog/7-python-web-development-frameworks-for-data-scientists#1-django-the-full-stack-powerhouse" class="hash-link" aria-label="Direct link to 1. Django: The Full-Stack Powerhouse" title="Direct link to 1. Django: The Full-Stack Powerhouse">​</a></h3>
+<p>Django is a mature, open-source framework renowned for enabling rapid development of secure and scalable web applications. Its comprehensive feature set includes:</p>
+<ul>
+<li><strong>Built-in ORM (Object-Relational Mapper)</strong></li>
+<li><strong>Automatic admin interface</strong></li>
+<li><strong>Integrated authentication system</strong></li>
+<li><strong>Vast ecosystem of reusable apps and components</strong></li>
+</ul>
+<p>Django is ideally suited for projects of any scale—from simple websites to complex enterprise solutions.</p>
+<ul>
+<li>Learn more: <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">https://www.djangoproject.com/</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-flask-minimalist-and-flexible">2. Flask: Minimalist and Flexible<a href="https://king-luvaha.github.io/project-wiki/blog/7-python-web-development-frameworks-for-data-scientists#2-flask-minimalist-and-flexible" class="hash-link" aria-label="Direct link to 2. Flask: Minimalist and Flexible" title="Direct link to 2. Flask: Minimalist and Flexible">​</a></h3>
+<p>Flask is a lightweight microframework that provides the essentials for web development, allowing you to extend functionality with only the components you need. Highlights include:</p>
+<ul>
+<li><strong>Minimal setup and simple API</strong></li>
+<li><strong>Perfect for small to medium apps and APIs</strong></li>
+<li><strong>Highly extensible through numerous third-party plugins</strong></li>
+<li><strong>Loved for its clean documentation and flexible design</strong></li>
+</ul>
+<p>Flask is especially appealing to those who want maximum control over their project architecture.</p>
+<ul>
+<li>Learn more: <a href="https://flask.palletsprojects.com/" target="_blank" rel="noopener noreferrer">https://flask.palletsprojects.com/</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-fastapi-blazing-fast-modern-apis">3. FastAPI: Blazing-Fast Modern APIs<a href="https://king-luvaha.github.io/project-wiki/blog/7-python-web-development-frameworks-for-data-scientists#3-fastapi-blazing-fast-modern-apis" class="hash-link" aria-label="Direct link to 3. FastAPI: Blazing-Fast Modern APIs" title="Direct link to 3. FastAPI: Blazing-Fast Modern APIs">​</a></h3>
+<p>FastAPI is a modern framework crafted for rapidly building high-performance APIs. Key features:</p>
+<ul>
+<li><strong>Asynchronous support for fast, scalable applications</strong></li>
+<li><strong>Automatic interactive documentation (OpenAPI, Swagger)</strong></li>
+<li><strong>Built-in validation and serialization using Pydantic</strong></li>
+<li><strong>Supports building websites with Jinja templates (v2)</strong></li>
+</ul>
+<p>FastAPI is an ideal choice for applications where speed and developer experience are paramount.</p>
+<ul>
+<li>Learn more: <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">https://fastapi.tiangolo.com/</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-gradio-effortless-ml-web-interfaces">4. Gradio: Effortless ML Web Interfaces<a href="https://king-luvaha.github.io/project-wiki/blog/7-python-web-development-frameworks-for-data-scientists#4-gradio-effortless-ml-web-interfaces" class="hash-link" aria-label="Direct link to 4. Gradio: Effortless ML Web Interfaces" title="Direct link to 4. Gradio: Effortless ML Web Interfaces">​</a></h3>
+<p>Gradio specializes in making web interfaces for machine learning models simple and accessible. With Gradio, you can:</p>
+<ul>
+<li><strong>Build and share web-based ML demos in minutes</strong></li>
+<li><strong>Deploy on Hugging Face for free</strong></li>
+<li><strong>No need for front-end expertise—basic Python knowledge suffices</strong></li>
+<li><strong>Popular within the ML and data science community</strong></li>
+</ul>
+<p>Gradio lowers the barrier for showcasing ML models on the web.</p>
+<ul>
+<li>Learn more: <a href="https://www.gradio.app/" target="_blank" rel="noopener noreferrer">https://www.gradio.app/</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-streamlit-instant-data-apps">5. Streamlit: Instant Data Apps<a href="https://king-luvaha.github.io/project-wiki/blog/7-python-web-development-frameworks-for-data-scientists#5-streamlit-instant-data-apps" class="hash-link" aria-label="Direct link to 5. Streamlit: Instant Data Apps" title="Direct link to 5. Streamlit: Instant Data Apps">​</a></h3>
+<p>Streamlit is tailored for data scientists and engineers who want to create interactive web apps directly from Python scripts. Key strengths include:</p>
+<ul>
+<li><strong>Rapid creation of dashboards and ML model demos</strong></li>
+<li><strong>No HTML, CSS, or JavaScript required</strong></li>
+<li><strong>Intuitive API designed for quick prototyping</strong></li>
+<li><strong>Seamless data visualization and sharing with non-technical stakeholders</strong></li>
+</ul>
+<p>Streamlit’s simplicity lets you focus on data and insight rather than front-end code.</p>
+<ul>
+<li>Learn more: <a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">https://streamlit.io/</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-tornado-non-blocking-scalable-performance">6. Tornado: Non-Blocking, Scalable Performance<a href="https://king-luvaha.github.io/project-wiki/blog/7-python-web-development-frameworks-for-data-scientists#6-tornado-non-blocking-scalable-performance" class="hash-link" aria-label="Direct link to 6. Tornado: Non-Blocking, Scalable Performance" title="Direct link to 6. Tornado: Non-Blocking, Scalable Performance">​</a></h3>
+<p>Tornado combines a web framework with an asynchronous networking library. Its core benefits are:</p>
+<ul>
+<li><strong>Designed for handling thousands of concurrent connections</strong></li>
+<li><strong>Non-blocking I/O model for real-time web services</strong></li>
+<li><strong>Suitable for live updates, chat apps, and long polling</strong></li>
+</ul>
+<p>Tornado is perfect for complex, high-performance applications relying on real-time communication.</p>
+<ul>
+<li>Learn more: <a href="https://www.tornadoweb.org/en/stable/guide.html" target="_blank" rel="noopener noreferrer">https://www.tornadoweb.org/en/stable/guide.html</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="7-reflex-full-stack-python-zero-javascript">7. Reflex: Full-Stack Python, Zero JavaScript<a href="https://king-luvaha.github.io/project-wiki/blog/7-python-web-development-frameworks-for-data-scientists#7-reflex-full-stack-python-zero-javascript" class="hash-link" aria-label="Direct link to 7. Reflex: Full-Stack Python, Zero JavaScript" title="Direct link to 7. Reflex: Full-Stack Python, Zero JavaScript">​</a></h3>
+<p>Reflex (formerly Pynecone) enables you to build entire web apps using only Python—no JavaScript needed. Highlights:</p>
+<ul>
+<li><strong>Compiles Python into modern, production-ready web apps</strong></li>
+<li><strong>Handles both frontend and backend seamlessly</strong></li>
+<li><strong>Ideal for Python developers wanting interactive UIs without switching languages</strong></li>
+</ul>
+<p>Reflex allows for end-to-end development in Python, simplifying the build process for interactive web applications.</p>
+<ul>
+<li>Learn more: <a href="https://reflex.dev/" target="_blank" rel="noopener noreferrer">https://reflex.dev/</a></li>
+</ul>
+<p>Whether prioritizing rapid prototyping, scalability, ML integration, or pure Python development, these frameworks empower you to choose the right tool for your project’s needs. Each framework brings its own approach, letting you balance flexibility, performance, and productivity.</p>]]></content>
+        <author>
+            <name>Ezra Luvaha</name>
+            <uri>https://portfolio-website-luvaha.vercel.app/</uri>
+        </author>
+        <category label="Python" term="Python"/>
+        <category label="Web Frameworks" term="Web Frameworks"/>
+        <category label="Django" term="Django"/>
+        <category label="Flask" term="Flask"/>
+        <category label="FastAPI" term="FastAPI"/>
+        <category label="Gradio" term="Gradio"/>
+        <category label="Streamlit" term="Streamlit"/>
+        <category label="Tornado" term="Tornado"/>
+        <category label="Reflex" term="Reflex"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[🧠 Python Virtual Environments: venv vs virtualenv vs wrapper]]></title>
