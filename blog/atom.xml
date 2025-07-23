@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://king-luvaha.github.io/project-wiki/blog</id>
     <title>MekSense Blog</title>
-    <updated>2025-07-23T13:26:33.000Z</updated>
+    <updated>2025-07-23T14:15:49.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://king-luvaha.github.io/project-wiki/blog"/>
     <subtitle>MekSense Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
         <id>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</id>
         <link href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game"/>
-        <updated>2025-07-23T13:26:33.000Z</updated>
+        <updated>2025-07-23T14:15:49.000Z</updated>
         <summary type="html"><![CDATA[---]]></summary>
         <content type="html"><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
@@ -124,178 +124,178 @@
         <updated>2025-07-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[---]]></summary>
         <content type="html"><![CDATA[<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction-">Introduction 📝<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#introduction-" class="hash-link" aria-label="Direct link to Introduction 📝" title="Direct link to Introduction 📝">​</a></h2>
 <p>In the ever-evolving world of web development, choosing the right tool for the job is crucial. As a full-stack developer, you’re likely familiar with building applications from scratch using frameworks and libraries like Node.js, Express, NestJS, React, Angular, and Vue.js. However, with the rise of Content Management Systems (CMS) such as Strapi, WordPress, and others, it’s worth considering when a CMS might be a better choice than a custom-built solution.</p>
 <p>This article explores scenarios where using a CMS is more advantageous than a framework or library, and when it makes sense to stick with traditional development approaches. We’ll also highlight some of the top CMS options for both frontend and backend development.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="not-every-website-needs-a-framework">Not Every Website Needs a Framework<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#not-every-website-needs-a-framework" class="hash-link" aria-label="Direct link to Not Every Website Needs a Framework" title="Direct link to Not Every Website Needs a Framework">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="not-every-website-needs-a-framework-">Not Every Website Needs a Framework 🚫🧩<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#not-every-website-needs-a-framework-" class="hash-link" aria-label="Direct link to Not Every Website Needs a Framework 🚫🧩" title="Direct link to Not Every Website Needs a Framework 🚫🧩">​</a></h2>
 <p>While frameworks and libraries like React, Angular, or NestJS offer powerful tools for building custom web applications, they aren’t always the best choice. Developing a website or application from scratch can be time-consuming, expensive, and overkill for certain projects. For example, a simple blog, portfolio, or small business website may not require the complexity of a full-stack framework.</p>
 <p>This is where CMS platforms come into play. A CMS provides pre-built functionality, such as content management, user authentication, and database management, allowing developers to focus on customization rather than reinventing the wheel. However, the decision to use a CMS, a framework, or even a native language depends on the specific requirements of your project.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="when-to-use-a-native-language-framework-or-cms">When to Use a Native Language, Framework, or CMS<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#when-to-use-a-native-language-framework-or-cms" class="hash-link" aria-label="Direct link to When to Use a Native Language, Framework, or CMS" title="Direct link to When to Use a Native Language, Framework, or CMS">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-when-to-use-a-native-language-eg-javascript-python-php">1. When to Use a Native Language (e.g., JavaScript, Python, PHP)<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#1-when-to-use-a-native-language-eg-javascript-python-php" class="hash-link" aria-label="Direct link to 1. When to Use a Native Language (e.g., JavaScript, Python, PHP)" title="Direct link to 1. When to Use a Native Language (e.g., JavaScript, Python, PHP)">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="when-to-use-a-native-language-framework-or-cms-">When to Use a Native Language, Framework, or CMS 🤔<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#when-to-use-a-native-language-framework-or-cms-" class="hash-link" aria-label="Direct link to When to Use a Native Language, Framework, or CMS 🤔" title="Direct link to When to Use a Native Language, Framework, or CMS 🤔">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-when-to-use-a-native-language-eg-javascript-python-php-">1. When to Use a Native Language (e.g., JavaScript, Python, PHP) 💻<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#1-when-to-use-a-native-language-eg-javascript-python-php-" class="hash-link" aria-label="Direct link to 1. When to Use a Native Language (e.g., JavaScript, Python, PHP) 💻" title="Direct link to 1. When to Use a Native Language (e.g., JavaScript, Python, PHP) 💻">​</a></h3>
 <ul>
 <li>Use Case: Small, simple projects or when you need full control over every aspect of the application.</li>
 <li>Example: A basic static website, a custom script, or a lightweight API.</li>
-<li>Pros: Complete control, no unnecessary overhead, and lightweight.</li>
-<li>Cons: Requires more development time and effort, especially for complex features.</li>
+<li>Pros ✅: Complete control, no unnecessary overhead, and lightweight.</li>
+<li>Cons ❌: Requires more development time and effort, especially for complex features.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-when-to-use-a-framework-or-library-eg-react-angular-nestjs">2. When to Use a Framework or Library (e.g., React, Angular, NestJS)<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#2-when-to-use-a-framework-or-library-eg-react-angular-nestjs" class="hash-link" aria-label="Direct link to 2. When to Use a Framework or Library (e.g., React, Angular, NestJS)" title="Direct link to 2. When to Use a Framework or Library (e.g., React, Angular, NestJS)">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-when-to-use-a-framework-or-library-eg-react-angular-nestjs-️">2. When to Use a Framework or Library (e.g., React, Angular, NestJS) 🏗️<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#2-when-to-use-a-framework-or-library-eg-react-angular-nestjs-%EF%B8%8F" class="hash-link" aria-label="Direct link to 2. When to Use a Framework or Library (e.g., React, Angular, NestJS) 🏗️" title="Direct link to 2. When to Use a Framework or Library (e.g., React, Angular, NestJS) 🏗️">​</a></h3>
 <ul>
 <li>Use Case: Medium to large-scale applications that require custom functionality, scalability, and flexibility.</li>
 <li>Example: E-commerce platforms, SaaS applications, or real-time applications.</li>
-<li>Pros: Reusable components, structured codebase, and access to a rich ecosystem of tools and libraries.</li>
-<li>Cons: Steeper learning curve, longer development time, and higher costs for maintenance.</li>
+<li>Pros 🔄: Reusable components, structured codebase, and access to a rich ecosystem of tools and libraries.</li>
+<li>Cons ⚠️: Steeper learning curve, longer development time, and higher costs for maintenance.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-when-to-use-a-cms-eg-strapi-wordpress-contentful">3. When to Use a CMS (e.g., Strapi, WordPress, Contentful)<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#3-when-to-use-a-cms-eg-strapi-wordpress-contentful" class="hash-link" aria-label="Direct link to 3. When to Use a CMS (e.g., Strapi, WordPress, Contentful)" title="Direct link to 3. When to Use a CMS (e.g., Strapi, WordPress, Contentful)">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-when-to-use-a-cms-eg-strapi-wordpress-contentful-">3. When to Use a CMS (e.g., Strapi, WordPress, Contentful) 📦<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#3-when-to-use-a-cms-eg-strapi-wordpress-contentful-" class="hash-link" aria-label="Direct link to 3. When to Use a CMS (e.g., Strapi, WordPress, Contentful) 📦" title="Direct link to 3. When to Use a CMS (e.g., Strapi, WordPress, Contentful) 📦">​</a></h3>
 <ul>
 <li>Use Case: Content-heavy websites, blogs, or projects where rapid development and ease of use are priorities.</li>
 <li>Example: Corporate websites, blogs, portfolios, or small e-commerce sites.</li>
-<li>Pros: Faster development, built-in features (e.g., content management, SEO tools), and easier for non-technical users to manage.</li>
-<li>Cons: Limited flexibility compared to custom solutions, potential performance overhead, and dependency on the CMS ecosystem.</li>
+<li>Pros 🚀: Faster development, built-in features (e.g., content management, SEO tools), and easier for non-technical users to manage.</li>
+<li>Cons 🔒: Limited flexibility compared to custom solutions, potential performance overhead, and dependency on the CMS ecosystem.</li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-scenarios-where-a-cms-shines">Key Scenarios Where a CMS Shines<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#key-scenarios-where-a-cms-shines" class="hash-link" aria-label="Direct link to Key Scenarios Where a CMS Shines" title="Direct link to Key Scenarios Where a CMS Shines">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-content-heavy-websites">1. Content-Heavy Websites<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#1-content-heavy-websites" class="hash-link" aria-label="Direct link to 1. Content-Heavy Websites" title="Direct link to 1. Content-Heavy Websites">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-scenarios-where-a-cms-shines-">Key Scenarios Where a CMS Shines ✨<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#key-scenarios-where-a-cms-shines-" class="hash-link" aria-label="Direct link to Key Scenarios Where a CMS Shines ✨" title="Direct link to Key Scenarios Where a CMS Shines ✨">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-content-heavy-websites-">1. Content-Heavy Websites 📰<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#1-content-heavy-websites-" class="hash-link" aria-label="Direct link to 1. Content-Heavy Websites 📰" title="Direct link to 1. Content-Heavy Websites 📰">​</a></h3>
 <p>If your project involves managing a large amount of content (e.g., blogs, news sites, or documentation), a CMS is ideal. Platforms like WordPress or Strapi provide intuitive interfaces for content creation, editing, and organization.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-rapid-development">2. Rapid Development<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#2-rapid-development" class="hash-link" aria-label="Direct link to 2. Rapid Development" title="Direct link to 2. Rapid Development">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-rapid-development-">2. Rapid Development ⚡<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#2-rapid-development-" class="hash-link" aria-label="Direct link to 2. Rapid Development ⚡" title="Direct link to 2. Rapid Development ⚡">​</a></h3>
 <p>When time-to-market is critical, a CMS can significantly speed up development. With pre-built templates, plugins, and themes, you can launch a website in days rather than weeks.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-non-technical-users">3. Non-Technical Users<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#3-non-technical-users" class="hash-link" aria-label="Direct link to 3. Non-Technical Users" title="Direct link to 3. Non-Technical Users">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-non-technical-users-">3. Non-Technical Users 👥<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#3-non-technical-users-" class="hash-link" aria-label="Direct link to 3. Non-Technical Users 👥" title="Direct link to 3. Non-Technical Users 👥">​</a></h3>
 <p>If the website will be managed by non-technical users (e.g., marketers or content creators), a CMS offers an easy-to-use interface for updating content without requiring coding knowledge.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-budget-constraints">4. Budget Constraints<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#4-budget-constraints" class="hash-link" aria-label="Direct link to 4. Budget Constraints" title="Direct link to 4. Budget Constraints">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-budget-constraints-">4. Budget Constraints 💰<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#4-budget-constraints-" class="hash-link" aria-label="Direct link to 4. Budget Constraints 💰" title="Direct link to 4. Budget Constraints 💰">​</a></h3>
 <p>For small businesses or startups with limited budgets, a CMS can reduce development costs by eliminating the need for custom coding and ongoing maintenance.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-seo-and-marketing-tools">5. SEO and Marketing Tools<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#5-seo-and-marketing-tools" class="hash-link" aria-label="Direct link to 5. SEO and Marketing Tools" title="Direct link to 5. SEO and Marketing Tools">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-seo-and-marketing-tools-">5. SEO and Marketing Tools 📈<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#5-seo-and-marketing-tools-" class="hash-link" aria-label="Direct link to 5. SEO and Marketing Tools 📈" title="Direct link to 5. SEO and Marketing Tools 📈">​</a></h3>
 <p>Many CMS platforms come with built-in SEO tools, analytics integrations, and marketing features, making it easier to optimize your site for search engines and track performance.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="top-cms-platforms-for-frontend-and-backend-development">Top CMS Platforms for Frontend and Backend Development<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#top-cms-platforms-for-frontend-and-backend-development" class="hash-link" aria-label="Direct link to Top CMS Platforms for Frontend and Backend Development" title="Direct link to Top CMS Platforms for Frontend and Backend Development">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="top-cms-platforms-for-frontend-and-backend-development-">Top CMS Platforms for Frontend and Backend Development 🏆<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#top-cms-platforms-for-frontend-and-backend-development-" class="hash-link" aria-label="Direct link to Top CMS Platforms for Frontend and Backend Development 🏆" title="Direct link to Top CMS Platforms for Frontend and Backend Development 🏆">​</a></h2>
 <p>When it comes to choosing a CMS, the landscape is vast and varied. Different types of CMS platforms cater to different needs, whether you're building a simple blog, a headless e-commerce site, or a complex enterprise application. To help you navigate this space, we’ve categorized the top CMS platforms by type and highlighted their key features, use cases, and popularity.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-traditional-cms">1. Traditional CMS<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#1-traditional-cms" class="hash-link" aria-label="Direct link to 1. Traditional CMS" title="Direct link to 1. Traditional CMS">​</a></h3>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="a-wordpress">a. WordPress<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#a-wordpress" class="hash-link" aria-label="Direct link to a. WordPress" title="Direct link to a. WordPress">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-traditional-cms-️">1. Traditional CMS 🗃️<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#1-traditional-cms-%EF%B8%8F" class="hash-link" aria-label="Direct link to 1. Traditional CMS 🗃️" title="Direct link to 1. Traditional CMS 🗃️">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="a-wordpress-">a. WordPress 🌐<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#a-wordpress-" class="hash-link" aria-label="Direct link to a. WordPress 🌐" title="Direct link to a. WordPress 🌐">​</a></h3>
 <ul>
 <li><strong>Popularity:</strong>&nbsp;Powers over 40% of all websites on the internet.</li>
 <li><strong>Features:</strong>
 <ul>
-<li>User-friendly interface with a WYSIWYG editor.</li>
-<li>Extensive plugin ecosystem (e.g., Yoast SEO, WooCommerce).</li>
-<li>Thousands of free and premium themes.</li>
+<li>📝 User-friendly interface with a WYSIWYG editor.</li>
+<li>🔌 Extensive plugin ecosystem (e.g., Yoast SEO, WooCommerce).</li>
+<li>🎨 Thousands of free and premium themes.</li>
 </ul>
 </li>
 <li><strong>Use Cases:</strong>&nbsp;Blogs, corporate websites, small e-commerce sites.</li>
 <li><strong>Why It’s Popular:</strong>&nbsp;Easy to use, highly customizable, and has a massive community.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="b-joomla">b. Joomla<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#b-joomla" class="hash-link" aria-label="Direct link to b. Joomla" title="Direct link to b. Joomla">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="b-joomla-">b. Joomla 🏢<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#b-joomla-" class="hash-link" aria-label="Direct link to b. Joomla 🏢" title="Direct link to b. Joomla 🏢">​</a></h3>
 <ul>
 <li><strong>Popularity:</strong>&nbsp;Powers around 2% of all websites.</li>
 <li><strong>Features:</strong>
 <ul>
-<li>Advanced user management and access control.</li>
-<li>Built-in multilingual support.</li>
-<li>Extensible with modules and components.</li>
+<li>👥 Advanced user management and access control.</li>
+<li>🌍 Built-in multilingual support.</li>
+<li>🔧 Extensible with modules and components.</li>
 </ul>
 </li>
 <li><strong>Use Cases:</strong>&nbsp;Community portals, membership sites, and medium-sized businesses.</li>
 <li><strong>Why It’s Popular:</strong>&nbsp;Offers more flexibility than WordPress for complex sites.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c-drupal">c. Drupal<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#c-drupal" class="hash-link" aria-label="Direct link to c. Drupal" title="Direct link to c. Drupal">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c-drupal-️">c. Drupal 🏛️<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#c-drupal-%EF%B8%8F" class="hash-link" aria-label="Direct link to c. Drupal 🏛️" title="Direct link to c. Drupal 🏛️">​</a></h3>
 <ul>
 <li><strong>Popularity:</strong>&nbsp;Used by large organizations and governments.</li>
 <li><strong>Features:</strong>
 <ul>
-<li>Highly scalable and secure.</li>
-<li>Advanced content modeling and taxonomy.</li>
-<li>Strong community and enterprise support.</li>
+<li>🔒 Highly scalable and secure.</li>
+<li>🗂️ Advanced content modeling and taxonomy.</li>
+<li>👨‍💻 Strong community and enterprise support.</li>
 </ul>
 </li>
 <li><strong>Use Cases:</strong>&nbsp;Government websites, universities, and large enterprises.</li>
 <li><strong>Why It’s Popular:</strong>&nbsp;Ideal for complex, high-traffic websites with custom requirements.</li>
 </ul>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-headless-cms">2. Headless CMS<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#2-headless-cms" class="hash-link" aria-label="Direct link to 2. Headless CMS" title="Direct link to 2. Headless CMS">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-headless-cms-">2. Headless CMS 🔗<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#2-headless-cms-" class="hash-link" aria-label="Direct link to 2. Headless CMS 🔗" title="Direct link to 2. Headless CMS 🔗">​</a></h3>
 <p>Headless CMS platforms decouple the backend (content management) from the frontend (content presentation). They provide content via APIs, making them ideal for modern, multi-channel applications.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="a-strapi">a. Strapi<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#a-strapi" class="hash-link" aria-label="Direct link to a. Strapi" title="Direct link to a. Strapi">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="a-strapi-️">a. Strapi ⚙️<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#a-strapi-%EF%B8%8F" class="hash-link" aria-label="Direct link to a. Strapi ⚙️" title="Direct link to a. Strapi ⚙️">​</a></h3>
 <ul>
 <li><strong>Popularity:</strong>&nbsp;Rapidly growing among developers.</li>
 <li><strong>Features:</strong>
 <ul>
-<li>Open-source and self-hosted.</li>
-<li>Fully customizable API.</li>
-<li>Supports REST and GraphQL.</li>
+<li>💻 Open-source and self-hosted.</li>
+<li>🔧 Fully customizable API.</li>
+<li>🔗 Supports REST and GraphQL.</li>
 </ul>
 </li>
 <li><strong>Use Cases:</strong>&nbsp;Custom APIs for React, Vue.js, or mobile apps.</li>
 <li><strong>Why It’s Popular:</strong>&nbsp;Developer-friendly, flexible, and integrates seamlessly with modern frameworks.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="b-contentful">b. Contentful<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#b-contentful" class="hash-link" aria-label="Direct link to b. Contentful" title="Direct link to b. Contentful">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="b-contentful-️">b. Contentful ☁️<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#b-contentful-%EF%B8%8F" class="hash-link" aria-label="Direct link to b. Contentful ☁️" title="Direct link to b. Contentful ☁️">​</a></h3>
 <ul>
 <li><strong>Popularity:</strong>&nbsp;Widely used by enterprises.</li>
 <li><strong>Features:</strong>
 <ul>
-<li>Cloud-based and scalable.</li>
-<li>Real-time content updates.</li>
-<li>Integrates with modern frontend frameworks.</li>
+<li>🌐 Cloud-based and scalable.</li>
+<li>⚡ Real-time content updates.</li>
+<li>🔌 Integrates with modern frontend frameworks.</li>
 </ul>
 </li>
 <li><strong>Use Cases:</strong>&nbsp;Multi-channel content delivery (web, mobile, IoT).</li>
 <li><strong>Why It’s Popular:</strong>&nbsp;Robust API, enterprise-grade features, and excellent documentation.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c-sanity">c. Sanity<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#c-sanity" class="hash-link" aria-label="Direct link to c. Sanity" title="Direct link to c. Sanity">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c-sanity-">c. Sanity 🧩<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#c-sanity-" class="hash-link" aria-label="Direct link to c. Sanity 🧩" title="Direct link to c. Sanity 🧩">​</a></h3>
 <ul>
 <li><strong>Popularity:</strong>&nbsp;Gaining traction for real-time applications.</li>
 <li><strong>Features:</strong>
 <ul>
-<li>Real-time collaboration and content updates.</li>
-<li>Customizable content models.</li>
-<li>Powerful APIs and GROQ query language.</li>
+<li>👥 Real-time collaboration and content updates.</li>
+<li>🔧 Customizable content models.</li>
+<li>📝 Powerful APIs and GROQ query language.</li>
 </ul>
 </li>
 <li><strong>Use Cases:</strong>&nbsp;Dynamic websites, editorial workflows, and e-commerce platforms.</li>
 <li><strong>Why It’s Popular:</strong>&nbsp;Highly flexible and developer-centric.</li>
 </ul>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-e-commerce-cms">3. E-commerce CMS<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#3-e-commerce-cms" class="hash-link" aria-label="Direct link to 3. E-commerce CMS" title="Direct link to 3. E-commerce CMS">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-e-commerce-cms-">3. E-commerce CMS 🛒<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#3-e-commerce-cms-" class="hash-link" aria-label="Direct link to 3. E-commerce CMS 🛒" title="Direct link to 3. E-commerce CMS 🛒">​</a></h3>
 <p>E-commerce CMS platforms are specifically designed for building online stores. They come with built-in features like product management, payment processing, and inventory tracking.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="a-shopify">a. Shopify<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#a-shopify" class="hash-link" aria-label="Direct link to a. Shopify" title="Direct link to a. Shopify">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="a-shopify-">a. Shopify 🏬<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#a-shopify-" class="hash-link" aria-label="Direct link to a. Shopify 🏬" title="Direct link to a. Shopify 🏬">​</a></h3>
 <ul>
 <li><strong>Popularity:</strong>&nbsp;Powers over 1.7 million online stores.</li>
 <li><strong>Features:</strong>
 <ul>
-<li>Easy-to-use drag-and-drop builder.</li>
-<li>Built-in payment processing and inventory management.</li>
-<li>Extensive app store for additional functionality.</li>
+<li>🖱️ Easy-to-use drag-and-drop builder.</li>
+<li>💳 Built-in payment processing and inventory management.</li>
+<li>🔌 Extensive app store for additional functionality.</li>
 </ul>
 </li>
 <li><strong>Use Cases:</strong>&nbsp;Small to medium-sized e-commerce businesses.</li>
 <li><strong>Why It’s Popular:</strong>&nbsp;Quick setup, no coding required, and excellent customer support.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="b-woocommerce">b. WooCommerce<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#b-woocommerce" class="hash-link" aria-label="Direct link to b. WooCommerce" title="Direct link to b. WooCommerce">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="b-woocommerce-️">b. WooCommerce 🛍️<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#b-woocommerce-%EF%B8%8F" class="hash-link" aria-label="Direct link to b. WooCommerce 🛍️" title="Direct link to b. WooCommerce 🛍️">​</a></h3>
 <ul>
 <li><strong>Popularity:</strong>&nbsp;Powers over 28% of all online stores.</li>
 <li><strong>Features:</strong>
 <ul>
-<li>Built as a WordPress plugin.</li>
-<li>Highly customizable with themes and extensions.</li>
-<li>Large community and ecosystem.</li>
+<li>🔌 Built as a WordPress plugin.</li>
+<li>🎨 Highly customizable with themes and extensions.</li>
+<li>👨‍👩‍👧‍👦 Large community and ecosystem.</li>
 </ul>
 </li>
 <li><strong>Use Cases:</strong>&nbsp;Small to medium-sized e-commerce businesses.</li>
 <li><strong>Why It’s Popular:</strong>&nbsp;Combines the flexibility of WordPress with e-commerce functionality.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c-magento-adobe-commerce">c. Magento (Adobe Commerce)<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#c-magento-adobe-commerce" class="hash-link" aria-label="Direct link to c. Magento (Adobe Commerce)" title="Direct link to c. Magento (Adobe Commerce)">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c-magento-adobe-commerce-">c. Magento (Adobe Commerce) 🏢<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#c-magento-adobe-commerce-" class="hash-link" aria-label="Direct link to c. Magento (Adobe Commerce) 🏢" title="Direct link to c. Magento (Adobe Commerce) 🏢">​</a></h3>
 <ul>
 <li><strong>Popularity:</strong>&nbsp;Used by large enterprises.</li>
 <li><strong>Features:</strong>
 <ul>
-<li>Highly scalable and customizable.</li>
-<li>Advanced SEO and marketing tools.</li>
-<li>Enterprise-grade security.</li>
+<li>🔧 Highly scalable and customizable.</li>
+<li>📈 Advanced SEO and marketing tools.</li>
+<li>🔒 Enterprise-grade security.</li>
 </ul>
 </li>
 <li><strong>Use Cases:</strong>&nbsp;Large e-commerce platforms with complex requirements.</li>
 <li><strong>Why It’s Popular:</strong>&nbsp;Ideal for high-traffic, enterprise-level online stores.</li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="choosing-the-right-cms-for-your-needs">Choosing the Right CMS for Your Needs<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#choosing-the-right-cms-for-your-needs" class="hash-link" aria-label="Direct link to Choosing the Right CMS for Your Needs" title="Direct link to Choosing the Right CMS for Your Needs">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="choosing-the-right-cms-for-your-needs-">Choosing the Right CMS for Your Needs 🎯<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#choosing-the-right-cms-for-your-needs-" class="hash-link" aria-label="Direct link to Choosing the Right CMS for Your Needs 🎯" title="Direct link to Choosing the Right CMS for Your Needs 🎯">​</a></h2>
 <p>The CMS landscape offers a wide range of options, each tailored to specific use cases and requirements. Whether you’re building a simple blog, a headless e-commerce site, or a complex enterprise application, there’s a CMS that fits your needs.</p>
 <ul>
 <li><strong>Traditional CMS</strong>&nbsp;like WordPress and Joomla are great for content-heavy websites.</li>
@@ -306,7 +306,7 @@
 </ul>
 <p>By understanding the strengths and use cases of each type of CMS, you can make an informed decision and choose the right tool for your project.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion-">Conclusion ✅<a href="https://king-luvaha.github.io/project-wiki/blog/when-to-use-cms-vs-framework#conclusion-" class="hash-link" aria-label="Direct link to Conclusion ✅" title="Direct link to Conclusion ✅">​</a></h2>
 <p>The decision to use a CMS, a framework, or a native language ultimately depends on your project’s requirements, budget, and timeline. While frameworks and libraries offer unparalleled flexibility and control, they can be overkill for simpler projects. On the other hand, a CMS can save time and resources, especially for content-heavy websites or projects with non-technical users.</p>
 <p>As a developer, it’s essential to evaluate the pros and cons of each approach and choose the tool that best aligns with your goals. Whether you opt for a CMS like Strapi or a framework like NestJS, the key is to strike the right balance between functionality, efficiency, and maintainability.</p>
 <p>By understanding when to use a CMS instead of a framework, you can deliver high-quality solutions that meet your clients’ needs while optimizing your development workflow.</p>
