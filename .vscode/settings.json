@@ -1,18 +1,24 @@
 {
     "cSpell.words": [
         "ASGI",
+        "Contentful",
         "gamedev",
         "getattr",
+        "GROQ",
         "httpx",
+        "Joomla",
+        "Magento",
         "platformers",
         "scrollers",
         "setattr",
+        "Sitecore",
         "slowapi",
         "startswith",
         "Streamlit",
         "tablename",
         "timedelta",
         "utcnow",
-        "WSGI"
+        "WSGI",
+        "Yoast"
     ]
 }
