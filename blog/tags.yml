@@ -108,3 +108,32 @@ Reflex:
   permalink: /reflex
   description: Modern Python framework for building interactive web apps
 
+cms:
+  label: CMS
+  permalink: /cms
+  description: Content Management Systems, platforms, and usage guides
+
+nodejs:
+  label: Node.js
+  permalink: /nodejs
+  description: JavaScript runtime built on Chrome's V8 engine for backend development
+
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: Posts related to JavaScript programming and web development
+
+backend:
+  label: Backend
+  permalink: /backend
+  description: Server-side development, APIs, databases, and backend frameworks
+
+frontend:
+  label: Frontend
+  permalink: /frontend
+  description: Client-side development, UI/UX, and frontend frameworks
+
+react:
+  label: React
+  permalink: /react
+  description: JavaScript library for building user interfaces and interactive web apps
