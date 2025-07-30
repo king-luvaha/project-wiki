@@ -1,3 +1,8 @@
+---
+id: django-calculator-step-by-step
+title: Full Step-by-Step Guide (Explained) - Django Calculator App
+sidebar_label: Django Calculator Guide
+---
 
 This project builds a simple yet functional web-based calculator using **Django** and **Bootstrap**. It evaluates mathematical expressions entered by the user and returns either the result or an error message.
 
