@@ -20,7 +20,7 @@ Uvicorn running on http://127.0.0.1:8000
 
 ---
 
-## 🟡 1. Test: Upload a Markdown File (POST /upload/)
+## 🟡 1. Test: Upload a Markdown File `(POST /upload/)`
 
 ### 🔧 Setup in Postman
 
@@ -62,7 +62,7 @@ You’ll get back a JSON object like this:
 
 ---
 
-## 🟢 2. Test: Get All Notes (GET /notes/)
+## 🟢 2. Test: Get All Notes `(GET /notes/)`
 
 ### 🔧 Setup in Postman
 
@@ -94,7 +94,7 @@ A list of notes:
 
 ---
 
-## 🔵 3. Test: Get Single Note by ID (GET /notes/{id})
+## 🔵 3. Test: Get Single Note by ID `(GET /notes/{id})`
 
 ### 🔧 Setup in Postman
 
