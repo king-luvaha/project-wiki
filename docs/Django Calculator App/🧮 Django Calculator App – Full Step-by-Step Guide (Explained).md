@@ -462,3 +462,7 @@ You could:
 - Add logs or calculation history
 - Use `POST` instead of `GET` for form submission
 - Deploy the app to a platform like [PythonAnywhere](https://www.pythonanywhere.com) or [Render](https://render.com)
+
+## Github Repo
+
+Link: https://github.com/king-luvaha/django-calculator-app
