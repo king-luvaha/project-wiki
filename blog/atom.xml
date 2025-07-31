@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://king-luvaha.github.io/project-wiki/blog</id>
     <title>MekSense Blog</title>
-    <updated>2025-07-31T20:24:00.000Z</updated>
+    <updated>2025-07-31T20:31:58.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://king-luvaha.github.io/project-wiki/blog"/>
     <subtitle>MekSense Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
         <id>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</id>
         <link href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game"/>
-        <updated>2025-07-31T20:24:00.000Z</updated>
+        <updated>2025-07-31T20:31:58.000Z</updated>
         <summary type="html"><![CDATA[---]]></summary>
         <content type="html"><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
@@ -122,10 +122,8 @@
         <id>https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch</id>
         <link href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch"/>
         <updated>2025-07-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[---]]></summary>
-        <content type="html"><![CDATA[<hr>
-<h1>🚀 How to Set Up a Django Project from Scratch (Step-by-Step Guide)</h1>
-<p>Whether you're a beginner or revisiting Django after a break, setting up your project correctly from the beginning saves time and future headaches. In this post, I’ll guide you through the <strong>complete setup process of a Django project</strong> from scratch—step by step.</p>
+        <summary type="html"><![CDATA[Whether you're a beginner or revisiting Django after a break, setting up your project correctly from the beginning saves time and future headaches. In this post, I’ll guide you through the complete setup process of a Django project from scratch—step by step.]]></summary>
+        <content type="html"><![CDATA[<p>Whether you're a beginner or revisiting Django after a break, setting up your project correctly from the beginning saves time and future headaches. In this post, I’ll guide you through the <strong>complete setup process of a Django project</strong> from scratch—step by step.</p>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-prerequisites">✅ Prerequisites<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-prerequisites" class="hash-link" aria-label="Direct link to ✅ Prerequisites" title="Direct link to ✅ Prerequisites">​</a></h2>
 <p>Before we begin, make sure you have:</p>
