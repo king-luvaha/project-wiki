@@ -9,15 +9,14 @@ tags:
 date: 2025-07-31
 ---
 ---
-Here’s a full blog post you can use or customize to teach others how to set up a Django project from scratch:
-
----
 
 # 🚀 How to Set Up a Django Project from Scratch (Step-by-Step Guide)
 
 Whether you're a beginner or revisiting Django after a break, setting up your project correctly from the beginning saves time and future headaches. In this post, I’ll guide you through the **complete setup process of a Django project** from scratch—step by step.
 
 ---
+
+<!--truncate-->
 
 ## ✅ Prerequisites
 

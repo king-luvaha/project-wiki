@@ -22,6 +22,8 @@ This article explores scenarios where using a CMS is more advantageous than a fr
 
 ---
 
+<!--truncate-->
+
 ## Not Every Website Needs a Framework 🚫🧩
 
 While frameworks and libraries like React, Angular, or NestJS offer powerful tools for building custom web applications, they aren’t always the best choice. Developing a website or application from scratch can be time-consuming, expensive, and overkill for certain projects. For example, a simple blog, portfolio, or small business website may not require the complexity of a full-stack framework.
