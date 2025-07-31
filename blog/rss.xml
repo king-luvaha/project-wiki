@@ -4,7 +4,7 @@
         <title>MekSense Blog</title>
         <link>https://king-luvaha.github.io/project-wiki/blog</link>
         <description>MekSense Blog</description>
-        <lastBuildDate>Thu, 31 Jul 2025 20:14:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 31 Jul 2025 20:24:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
             <link>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</link>
             <guid>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</guid>
-            <pubDate>Thu, 31 Jul 2025 20:14:09 GMT</pubDate>
+            <pubDate>Thu, 31 Jul 2025 20:24:00 GMT</pubDate>
             <description><![CDATA[---]]></description>
             <content:encoded><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
@@ -121,8 +121,6 @@
             <pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[---]]></description>
             <content:encoded><![CDATA[<hr>
-<p>Here’s a full blog post you can use or customize to teach others how to set up a Django project from scratch:</p>
-<hr>
 <h1>🚀 How to Set Up a Django Project from Scratch (Step-by-Step Guide)</h1>
 <p>Whether you're a beginner or revisiting Django after a break, setting up your project correctly from the beginning saves time and future headaches. In this post, I’ll guide you through the <strong>complete setup process of a Django project</strong> from scratch—step by step.</p>
 <hr>
