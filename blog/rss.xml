@@ -4,7 +4,7 @@
         <title>MekSense Blog</title>
         <link>https://king-luvaha.github.io/project-wiki/blog</link>
         <description>MekSense Blog</description>
-        <lastBuildDate>Wed, 30 Jul 2025 09:30:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 31 Jul 2025 20:14:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
             <link>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</link>
             <guid>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</guid>
-            <pubDate>Wed, 30 Jul 2025 09:30:18 GMT</pubDate>
+            <pubDate>Thu, 31 Jul 2025 20:14:09 GMT</pubDate>
             <description><![CDATA[---]]></description>
             <content:encoded><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
@@ -113,6 +113,98 @@
             <category>Python</category>
             <category>2D Games</category>
             <category>Ninja Game</category>
+        </item>
+        <item>
+            <title><![CDATA[How to Set Up a Django Project from Scratch (Step-by-Step Guide)]]></title>
+            <link>https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch</link>
+            <guid>https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch</guid>
+            <pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[---]]></description>
+            <content:encoded><![CDATA[<hr>
+<p>Here’s a full blog post you can use or customize to teach others how to set up a Django project from scratch:</p>
+<hr>
+<h1>🚀 How to Set Up a Django Project from Scratch (Step-by-Step Guide)</h1>
+<p>Whether you're a beginner or revisiting Django after a break, setting up your project correctly from the beginning saves time and future headaches. In this post, I’ll guide you through the <strong>complete setup process of a Django project</strong> from scratch—step by step.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-prerequisites">✅ Prerequisites<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-prerequisites" class="hash-link" aria-label="Direct link to ✅ Prerequisites" title="Direct link to ✅ Prerequisites">​</a></h2>
+<p>Before we begin, make sure you have:</p>
+<ul>
+<li>Python 3.8 or above installed</li>
+<li><code>pip</code> (Python package manager)</li>
+<li>Git Bash, Terminal, or Command Prompt</li>
+<li>Basic understanding of Python</li>
+<li>VS Code (optional but recommended)</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-1-create-a-virtual-environment">🛠 Step 1: Create a Virtual Environment<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-step-1-create-a-virtual-environment" class="hash-link" aria-label="Direct link to 🛠 Step 1: Create a Virtual Environment" title="Direct link to 🛠 Step 1: Create a Virtual Environment">​</a></h2>
+<p>Creating a virtual environment ensures your project dependencies are isolated.</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Create a new project directory</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">mkdir my_django_project</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cd my_django_project</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Create a virtual environment</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">python -m venv venv</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Activate it</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># On Windows:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">venv\Scripts\activate</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># On Mac/Linux:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">source venv/bin/activate</span><br></span></code></pre></div></div>
+<p>Once activated, your terminal should show <code>(venv)</code>.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-2-install-django">📦 Step 2: Install Django<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-step-2-install-django" class="hash-link" aria-label="Direct link to 📦 Step 2: Install Django" title="Direct link to 📦 Step 2: Install Django">​</a></h2>
+<p>With the virtual environment activated, install Django:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pip install django</span><br></span></code></pre></div></div>
+<p>Check if Django was installed correctly:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">django-admin --version</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-3-create-the-django-project">🧱 Step 3: Create the Django Project<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-step-3-create-the-django-project" class="hash-link" aria-label="Direct link to 🧱 Step 3: Create the Django Project" title="Direct link to 🧱 Step 3: Create the Django Project">​</a></h2>
+<p>Now let’s create the actual Django project.</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">django-admin startproject config .</span><br></span></code></pre></div></div>
+<blockquote>
+<p><code>config</code> is just a common name for the root Django project (you can name it anything). The dot (<code>.</code>) tells Django to place files in the current folder.</p>
+</blockquote>
+<p>Your structure now looks like:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">my_django_project/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── manage.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── config/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── __init__.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── settings.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── urls.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   └── wsgi.py</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-4-understand-the-project-structure">🔍 Step 4: Understand the Project Structure<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-step-4-understand-the-project-structure" class="hash-link" aria-label="Direct link to 🔍 Step 4: Understand the Project Structure" title="Direct link to 🔍 Step 4: Understand the Project Structure">​</a></h2>
+<ul>
+<li><code>manage.py</code>: Entry point to manage your app (run server, migrations, etc.)</li>
+<li><code>config/settings.py</code>: All your configuration (DB, installed apps, etc.)</li>
+<li><code>config/urls.py</code>: App routes are defined here</li>
+<li><code>config/wsgi.py</code>: Used for deployment on production servers</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-5-run-the-development-server">🖥 Step 5: Run the Development Server<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-step-5-run-the-development-server" class="hash-link" aria-label="Direct link to 🖥 Step 5: Run the Development Server" title="Direct link to 🖥 Step 5: Run the Development Server">​</a></h2>
+<p>Let’s test if everything works.</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">python manage.py runserver</span><br></span></code></pre></div></div>
+<p>Open your browser and go to:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">http://127.0.0.1:8000/</span><br></span></code></pre></div></div>
+<p>You should see the Django welcome page 🎉</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-6-create-a-django-app">🧩 Step 6: Create a Django App<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-step-6-create-a-django-app" class="hash-link" aria-label="Direct link to 🧩 Step 6: Create a Django App" title="Direct link to 🧩 Step 6: Create a Django App">​</a></h2>
+<p>Apps are where you build features (e.g., blog, users, products).</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">python manage.py startapp myapp</span><br></span></code></pre></div></div>
+<p>Update <code>config/settings.py</code> to register the app:</p>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">INSTALLED_APPS </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">.</span><span class="token punctuation" style="color:#393A34">.</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token string" style="color:#e3116c">'myapp'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">]</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-7-set-up-the-admin-panel">🔐 Step 7: Set Up the Admin Panel<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-step-7-set-up-the-admin-panel" class="hash-link" aria-label="Direct link to 🔐 Step 7: Set Up the Admin Panel" title="Direct link to 🔐 Step 7: Set Up the Admin Panel">​</a></h2>
+<p>Create a superuser:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">python manage.py createsuperuser</span><br></span></code></pre></div></div>
+<p>Follow the prompts and create credentials.</p>
+<p>Then go to:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">http://127.0.0.1:8000/admin</span><br></span></code></pre></div></div>
+<p>Login using the superuser credentials you just created. You now have access to Django’s powerful admin panel!</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-bonus-make-your-first-migration">🧪 Bonus: Make Your First Migration<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-bonus-make-your-first-migration" class="hash-link" aria-label="Direct link to 🧪 Bonus: Make Your First Migration" title="Direct link to 🧪 Bonus: Make Your First Migration">​</a></h2>
+<p>To prepare the database for use, run:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">python manage.py migrate</span><br></span></code></pre></div></div>
+<p>This creates the necessary tables (users, sessions, etc.).</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-final-tips">🎯 Final Tips<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-final-tips" class="hash-link" aria-label="Direct link to 🎯 Final Tips" title="Direct link to 🎯 Final Tips">​</a></h2>
+<ul>
+<li>Keep your project in Git from day one</li>
+<li>Use <code>.env</code> files for secrets in production</li>
+<li>Use Django’s <code>runserver</code> only for development</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-sample-folder-structure-after-app-creation">🚧 Sample Folder Structure (After App Creation)<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-sample-folder-structure-after-app-creation" class="hash-link" aria-label="Direct link to 🚧 Sample Folder Structure (After App Creation)" title="Direct link to 🚧 Sample Folder Structure (After App Creation)">​</a></h2>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">my_django_project/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── config/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── __init__.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── settings.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── urls.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   └── wsgi.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── myapp/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── admin.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── apps.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── models.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── tests.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   └── views.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── manage.py</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└── venv/</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-conclusion">📘 Conclusion<a href="https://king-luvaha.github.io/project-wiki/blog/setup-django-project-from-scratch#-conclusion" class="hash-link" aria-label="Direct link to 📘 Conclusion" title="Direct link to 📘 Conclusion">​</a></h2>
+<p>Setting up a Django project is the first step to building powerful web applications with Python. From here, you can start adding views, templates, models, and more.</p>]]></content:encoded>
+            <category>Django</category>
+            <category>Python</category>
+            <category>Backend</category>
         </item>
         <item>
             <title><![CDATA[When to Use a CMS Instead of a Framework]]></title>
