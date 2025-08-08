@@ -137,3 +137,8 @@ react:
   label: React
   permalink: /react
   description: JavaScript library for building user interfaces and interactive web apps
+
+mongodb:
+  label: MongoDB
+  permalink: /mongodb
+  description: NoSQL document database designed for high performance, scalability, and flexibility
