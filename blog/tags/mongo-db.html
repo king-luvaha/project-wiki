@@ -5,8 +5,8 @@
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">One post tagged with &quot;MongoDB&quot; | MekSense</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://king-luvaha.github.io/project-wiki/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://king-luvaha.github.io/project-wiki/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://king-luvaha.github.io/project-wiki/blog/tags/mongo-db"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" property="og:title" content="One post tagged with &quot;MongoDB&quot; | MekSense"><meta data-rh="true" name="docusaurus_tag" content="blog_tags_posts"><meta data-rh="true" name="docsearch:docusaurus_tag" content="blog_tags_posts"><link data-rh="true" rel="icon" href="/project-wiki/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://king-luvaha.github.io/project-wiki/blog/tags/mongo-db"><link data-rh="true" rel="alternate" href="https://king-luvaha.github.io/project-wiki/blog/tags/mongo-db" hreflang="en"><link data-rh="true" rel="alternate" href="https://king-luvaha.github.io/project-wiki/blog/tags/mongo-db" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/project-wiki/blog/rss.xml" title="MekSense RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/project-wiki/blog/atom.xml" title="MekSense Atom Feed"><link rel="stylesheet" href="/project-wiki/assets/css/styles.80047e65.css">
-<script src="/project-wiki/assets/js/runtime~main.bb0cb8fe.js" defer="defer"></script>
-<script src="/project-wiki/assets/js/main.df080390.js" defer="defer"></script>
+<script src="/project-wiki/assets/js/runtime~main.3ed76e74.js" defer="defer"></script>
+<script src="/project-wiki/assets/js/main.897e57dd.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
@@ -21,106 +21,6 @@
 <li>✅ Install the MongoDB Shell (<code>mongosh</code>)</li>
 <li>✅ Verify everything is working perfectly</li>
 </ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-1-download-mongodb-for-windows-11">📦 Step 1: Download MongoDB for Windows 11<a href="#-step-1-download-mongodb-for-windows-11" class="hash-link" aria-label="Direct link to 📦 Step 1: Download MongoDB for Windows 11" title="Direct link to 📦 Step 1: Download MongoDB for Windows 11">​</a></h2>
-<ol>
-<li>Visit the <a href="https://www.mongodb.com/try/download/community" target="_blank" rel="noopener noreferrer">MongoDB Download Center</a>.</li>
-<li>Select the following options:<!-- -->
-<ul>
-<li><strong>Version:</strong> Latest (e.g., 7.0+)</li>
-<li><strong>OS:</strong> Windows</li>
-<li><strong>Package:</strong> MSI</li>
-</ul>
-</li>
-<li>Click <strong>Download</strong> and wait for the <code>.msi</code> file to finish downloading.</li>
-</ol>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-step-2-install-mongodb">⚙️ Step 2: Install MongoDB<a href="#️-step-2-install-mongodb" class="hash-link" aria-label="Direct link to ⚙️ Step 2: Install MongoDB" title="Direct link to ⚙️ Step 2: Install MongoDB">​</a></h2>
-<ol>
-<li>Double-click the <code>.msi</code> installer to launch the setup wizard.</li>
-<li>Select <strong>Complete</strong> installation.</li>
-<li>On the &quot;Service Configuration&quot; screen:<!-- -->
-<ul>
-<li>Choose <strong>Run MongoDB as a Service</strong>.</li>
-<li>Leave defaults (<code>Network Service user</code>, port 27017).</li>
-</ul>
-</li>
-<li>On the &quot;Data Directory&quot; screen:<!-- -->
-<ul>
-<li>Default is usually: <code>C:\Program Files\MongoDB\Server\&lt;version&gt;\</code></li>
-</ul>
-</li>
-<li>Finish installation.</li>
-</ol>
-<p>✅ MongoDB is now installed on your machine.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-3-install-mongodb-shell-mongosh">🧪 Step 3: Install MongoDB Shell (mongosh)<a href="#-step-3-install-mongodb-shell-mongosh" class="hash-link" aria-label="Direct link to 🧪 Step 3: Install MongoDB Shell (mongosh)" title="Direct link to 🧪 Step 3: Install MongoDB Shell (mongosh)">​</a></h2>
-<p>Starting from MongoDB 6.0+, the legacy <code>mongo</code> shell has been replaced with <code>mongosh</code>.</p>
-<ol>
-<li>Download the standalone <strong>MongoDB Shell (mongosh)</strong> from:
-👉 <a href="https://www.mongodb.com/try/download/shell" target="_blank" rel="noopener noreferrer">https://www.mongodb.com/try/download/shell</a></li>
-<li>Choose:<!-- -->
-<ul>
-<li>OS: Windows</li>
-<li>Package: Zip Archive</li>
-</ul>
-</li>
-<li>Extract the zip file (e.g., to <code>C:\mongosh</code>) and optionally add it to your system <code>PATH</code>:<!-- -->
-<ul>
-<li>Open <strong>System Properties</strong> &gt; <strong>Environment Variables</strong></li>
-<li>Under <strong>System variables</strong>, find <code>Path</code>, click <strong>Edit</strong>, then <strong>New</strong>, and paste the path to the extracted <code>mongosh.exe</code></li>
-</ul>
-</li>
-</ol>
-<p>Now you can open a terminal (Command Prompt or PowerShell) and run:</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">mongosh</span><br></span></code></pre></div></div>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-4-install-mongodb-compass">💻 Step 4: Install MongoDB Compass<a href="#-step-4-install-mongodb-compass" class="hash-link" aria-label="Direct link to 💻 Step 4: Install MongoDB Compass" title="Direct link to 💻 Step 4: Install MongoDB Compass">​</a></h2>
-<p>MongoDB Compass is the official GUI for interacting with your MongoDB database visually.</p>
-<ol>
-<li>Visit: <a href="https://www.mongodb.com/try/download/compass" target="_blank" rel="noopener noreferrer">https://www.mongodb.com/try/download/compass</a></li>
-<li>Choose the <strong>latest version</strong> and download the <code>.exe</code> installer.</li>
-<li>Run the installer and follow the default steps.</li>
-</ol>
-<p>Once installed, launch Compass and connect to:</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">mongodb://localhost:27017</span><br></span></code></pre></div></div>
-<p>You should see your MongoDB instance running.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-5-verify-your-installation">✅ Step 5: Verify Your Installation<a href="#-step-5-verify-your-installation" class="hash-link" aria-label="Direct link to ✅ Step 5: Verify Your Installation" title="Direct link to ✅ Step 5: Verify Your Installation">​</a></h2>
-<p>Let’s test everything to ensure MongoDB is up and running:</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-check-mongodb-service-status">🔹 1. Check MongoDB Service Status<a href="#-1-check-mongodb-service-status" class="hash-link" aria-label="Direct link to 🔹 1. Check MongoDB Service Status" title="Direct link to 🔹 1. Check MongoDB Service Status">​</a></h3>
-<p>Open <strong>Command Prompt</strong> and run:</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sc query MongoDB</span><br></span></code></pre></div></div>
-<p>You should see <code>RUNNING</code> under <code>STATE</code>.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-connect-via-mongodb-shell">🔹 2. Connect via MongoDB Shell<a href="#-2-connect-via-mongodb-shell" class="hash-link" aria-label="Direct link to 🔹 2. Connect via MongoDB Shell" title="Direct link to 🔹 2. Connect via MongoDB Shell">​</a></h3>
-<p>Run:</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">mongosh</span><br></span></code></pre></div></div>
-<p>Expected output:</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Current Mongosh Log ID...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Connecting to:        mongodb://127.0.0.1:27017/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Using MongoDB:        7.x.x</span><br></span></code></pre></div></div>
-<p>Then test a basic command:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">show dbs</span><br></span></code></pre></div></div>
-<p>You should see default databases like <code>admin</code>, <code>config</code>, and <code>local</code>.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-connect-via-mongodb-compass">🔹 3. Connect via MongoDB Compass<a href="#-3-connect-via-mongodb-compass" class="hash-link" aria-label="Direct link to 🔹 3. Connect via MongoDB Compass" title="Direct link to 🔹 3. Connect via MongoDB Compass">​</a></h3>
-<ul>
-<li>Launch Compass</li>
-<li>Use connection string: <code>mongodb://localhost:27017</code></li>
-<li>Click <strong>Connect</strong></li>
-<li>You should see your databases listed.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-optional-create-a-test-database">🧹 Optional: Create a Test Database<a href="#-optional-create-a-test-database" class="hash-link" aria-label="Direct link to 🧹 Optional: Create a Test Database" title="Direct link to 🧹 Optional: Create a Test Database">​</a></h2>
-<p>In <code>mongosh</code>, run:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">use blogTestDB</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">db</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">articles</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">insertOne</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">title</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Hello MongoDB&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">created_at</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">new</span><span class="token plain"> </span><span class="token class-name">Date</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">db</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">articles</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">find</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre></div></div>
-<p>You should see your inserted document.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-conclusion">🎉 Conclusion<a href="#-conclusion" class="hash-link" aria-label="Direct link to 🎉 Conclusion" title="Direct link to 🎉 Conclusion">​</a></h2>
-<p>You’ve successfully installed MongoDB, MongoDB Compass, and mongosh on your Windows 11 system! With this setup, you&#x27;re ready to build modern, data-driven applications using a powerful NoSQL database.</p>
-<p>Stay tuned for more guides on how to:</p>
-<ul>
-<li>Create schemas in MongoDB</li>
-<li>Connect MongoDB with Node.js or Python</li>
-<li>Host MongoDB in the cloud with Atlas</li>
-</ul>
-<hr></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/project-wiki/blog/tags/mongo-db">MongoDB</a></li></ul></div></footer></article><nav class="pagination-nav" aria-label="Blog list page navigation"></nav></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/project-wiki/docs/intro">Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.linkedin.com/in/ezra-yeswa/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://discord.com/channels/@me" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/project-wiki/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/king-luvaha" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://roadmap.sh/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Roadmap<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 MekSense by Ezra Yeswa. Built with Docusaurus.</div></div></div></footer></div>
+<hr></div><footer class="row docusaurus-mt-lg"><div class="col col--9"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/project-wiki/blog/tags/mongo-db">MongoDB</a></li></ul></div><div class="col text--right col--3"><a aria-label="Read more about How to Install and Set Up MongoDB on Windows 11 (2025 Edition)" href="/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition"><b>Read more</b></a></div></footer></article><nav class="pagination-nav" aria-label="Blog list page navigation"></nav></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/project-wiki/docs/intro">Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.linkedin.com/in/ezra-yeswa/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://discord.com/channels/@me" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/project-wiki/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/king-luvaha" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://roadmap.sh/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Roadmap<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 MekSense by Ezra Yeswa. Built with Docusaurus.</div></div></div></footer></div>
 </body>
 </html>
