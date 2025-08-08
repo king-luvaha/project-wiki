@@ -11,24 +11,20 @@ date: 2025-08-08
 MongoDB is one of the most popular NoSQL databases used in modern applications. Whether you're a backend developer, full-stack engineer, or just exploring databases, learning how to install MongoDB on Windows 11 is a solid first step.
 
 In this guide, you'll learn how to:
-
-✅ Download and install the latest version of MongoDB
-✅ Install MongoDB Compass (the GUI)
-✅ Install the MongoDB Shell (`mongosh`)
-✅ Verify everything is working perfectly
+- ✅ Download and install the latest version of MongoDB
+- ✅ Install MongoDB Compass (the GUI)
+- ✅ Install the MongoDB Shell (`mongosh`)
+- ✅ Verify everything is working perfectly
 
 ---
 
 ## 📦 Step 1: Download MongoDB for Windows 11
 
 1. Visit the [MongoDB Download Center](https://www.mongodb.com/try/download/community).
-
 2. Select the following options:
-
    * **Version:** Latest (e.g., 7.0+)
    * **OS:** Windows
    * **Package:** MSI
-
 3. Click **Download** and wait for the `.msi` file to finish downloading.
 
 ---
@@ -38,11 +34,9 @@ In this guide, you'll learn how to:
 1. Double-click the `.msi` installer to launch the setup wizard.
 2. Select **Complete** installation.
 3. On the "Service Configuration" screen:
-
    * Choose **Run MongoDB as a Service**.
    * Leave defaults (`Network Service user`, port 27017).
 4. On the "Data Directory" screen:
-
    * Default is usually: `C:\Program Files\MongoDB\Server\<version>\`
 5. Finish installation.
 
@@ -56,14 +50,10 @@ Starting from MongoDB 6.0+, the legacy `mongo` shell has been replaced with `mon
 
 1. Download the standalone **MongoDB Shell (mongosh)** from:
    👉 [https://www.mongodb.com/try/download/shell](https://www.mongodb.com/try/download/shell)
-
 2. Choose:
-
    * OS: Windows
    * Package: Zip Archive
-
 3. Extract the zip file (e.g., to `C:\mongosh`) and optionally add it to your system `PATH`:
-
    * Open **System Properties** > **Environment Variables**
    * Under **System variables**, find `Path`, click **Edit**, then **New**, and paste the path to the extracted `mongosh.exe`
 
