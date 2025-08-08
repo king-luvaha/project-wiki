@@ -675,19 +675,6 @@ db.books.createIndex({ title: 1 })
 db.books.createIndex({ author: 1, publishedDate: -1 })
 ```
 
-##### 🕵️ Reading the Index Display
-Compass shows indexes in an easy-to-read table:
-
-| Name         | Fields                          | Type    | Size  | Usage |
-|--------------|---------------------------------|---------|-------|-------|
-| title_1      | { title: 1 }                    | REGULAR | 12MB  | 85%   |
-| author_1     | { author: 1, publishedDate: -1 }| COMPOUND| 45MB  | 62%   |
-
-Key columns:
-- **Usage %**: How often the index is used in queries (helps identify unused indexes)
-- **Size**: Storage space consumed
-- **Type**: Regular, Compound, Text, etc.
-
 ---
 
 ### 🧱 2. Schema Design Best Practices
