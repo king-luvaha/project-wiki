@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://king-luvaha.github.io/project-wiki/blog</id>
     <title>MekSense Blog</title>
-    <updated>2025-08-08T11:46:41.000Z</updated>
+    <updated>2025-08-08T11:53:54.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://king-luvaha.github.io/project-wiki/blog"/>
     <subtitle>MekSense Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
         <id>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</id>
         <link href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game"/>
-        <updated>2025-08-08T11:46:41.000Z</updated>
+        <updated>2025-08-08T11:53:54.000Z</updated>
         <summary type="html"><![CDATA[---]]></summary>
         <content type="html"><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
@@ -126,72 +126,57 @@
         <content type="html"><![CDATA[<hr>
 <p>MongoDB is one of the most popular NoSQL databases used in modern applications. Whether you're a backend developer, full-stack engineer, or just exploring databases, learning how to install MongoDB on Windows 11 is a solid first step.</p>
 <p>In this guide, you'll learn how to:</p>
-<p>✅ Download and install the latest version of MongoDB
-✅ Install MongoDB Compass (the GUI)
-✅ Install the MongoDB Shell (<code>mongosh</code>)
-✅ Verify everything is working perfectly</p>
+<ul>
+<li>✅ Download and install the latest version of MongoDB</li>
+<li>✅ Install MongoDB Compass (the GUI)</li>
+<li>✅ Install the MongoDB Shell (<code>mongosh</code>)</li>
+<li>✅ Verify everything is working perfectly</li>
+</ul>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-1-download-mongodb-for-windows-11">📦 Step 1: Download MongoDB for Windows 11<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#-step-1-download-mongodb-for-windows-11" class="hash-link" aria-label="Direct link to 📦 Step 1: Download MongoDB for Windows 11" title="Direct link to 📦 Step 1: Download MongoDB for Windows 11">​</a></h2>
 <ol>
-<li>
-<p>Visit the <a href="https://www.mongodb.com/try/download/community" target="_blank" rel="noopener noreferrer">MongoDB Download Center</a>.</p>
-</li>
-<li>
-<p>Select the following options:</p>
+<li>Visit the <a href="https://www.mongodb.com/try/download/community" target="_blank" rel="noopener noreferrer">MongoDB Download Center</a>.</li>
+<li>Select the following options:<!-- -->
 <ul>
 <li><strong>Version:</strong> Latest (e.g., 7.0+)</li>
 <li><strong>OS:</strong> Windows</li>
 <li><strong>Package:</strong> MSI</li>
 </ul>
 </li>
-<li>
-<p>Click <strong>Download</strong> and wait for the <code>.msi</code> file to finish downloading.</p>
-</li>
+<li>Click <strong>Download</strong> and wait for the <code>.msi</code> file to finish downloading.</li>
 </ol>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-step-2-install-mongodb">⚙️ Step 2: Install MongoDB<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#%EF%B8%8F-step-2-install-mongodb" class="hash-link" aria-label="Direct link to ⚙️ Step 2: Install MongoDB" title="Direct link to ⚙️ Step 2: Install MongoDB">​</a></h2>
 <ol>
-<li>
-<p>Double-click the <code>.msi</code> installer to launch the setup wizard.</p>
-</li>
-<li>
-<p>Select <strong>Complete</strong> installation.</p>
-</li>
-<li>
-<p>On the "Service Configuration" screen:</p>
+<li>Double-click the <code>.msi</code> installer to launch the setup wizard.</li>
+<li>Select <strong>Complete</strong> installation.</li>
+<li>On the "Service Configuration" screen:<!-- -->
 <ul>
 <li>Choose <strong>Run MongoDB as a Service</strong>.</li>
 <li>Leave defaults (<code>Network Service user</code>, port 27017).</li>
 </ul>
 </li>
-<li>
-<p>On the "Data Directory" screen:</p>
+<li>On the "Data Directory" screen:<!-- -->
 <ul>
 <li>Default is usually: <code>C:\Program Files\MongoDB\Server\&lt;version&gt;\</code></li>
 </ul>
 </li>
-<li>
-<p>Finish installation.</p>
-</li>
+<li>Finish installation.</li>
 </ol>
 <p>✅ MongoDB is now installed on your machine.</p>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-3-install-mongodb-shell-mongosh">🧪 Step 3: Install MongoDB Shell (mongosh)<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#-step-3-install-mongodb-shell-mongosh" class="hash-link" aria-label="Direct link to 🧪 Step 3: Install MongoDB Shell (mongosh)" title="Direct link to 🧪 Step 3: Install MongoDB Shell (mongosh)">​</a></h2>
 <p>Starting from MongoDB 6.0+, the legacy <code>mongo</code> shell has been replaced with <code>mongosh</code>.</p>
 <ol>
-<li>
-<p>Download the standalone <strong>MongoDB Shell (mongosh)</strong> from:
-👉 <a href="https://www.mongodb.com/try/download/shell" target="_blank" rel="noopener noreferrer">https://www.mongodb.com/try/download/shell</a></p>
-</li>
-<li>
-<p>Choose:</p>
+<li>Download the standalone <strong>MongoDB Shell (mongosh)</strong> from:
+👉 <a href="https://www.mongodb.com/try/download/shell" target="_blank" rel="noopener noreferrer">https://www.mongodb.com/try/download/shell</a></li>
+<li>Choose:<!-- -->
 <ul>
 <li>OS: Windows</li>
 <li>Package: Zip Archive</li>
 </ul>
 </li>
-<li>
-<p>Extract the zip file (e.g., to <code>C:\mongosh</code>) and optionally add it to your system <code>PATH</code>:</p>
+<li>Extract the zip file (e.g., to <code>C:\mongosh</code>) and optionally add it to your system <code>PATH</code>:<!-- -->
 <ul>
 <li>Open <strong>System Properties</strong> &gt; <strong>Environment Variables</strong></li>
 <li>Under <strong>System variables</strong>, find <code>Path</code>, click <strong>Edit</strong>, then <strong>New</strong>, and paste the path to the extracted <code>mongosh.exe</code></li>
