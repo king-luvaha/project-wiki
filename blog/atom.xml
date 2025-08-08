@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://king-luvaha.github.io/project-wiki/blog</id>
     <title>MekSense Blog</title>
-    <updated>2025-07-31T20:31:58.000Z</updated>
+    <updated>2025-08-08T11:46:26.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://king-luvaha.github.io/project-wiki/blog"/>
     <subtitle>MekSense Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[🎮 Building a 2D Platformer Game with a Custom Level Editor in Python]]></title>
         <id>https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game</id>
         <link href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game"/>
-        <updated>2025-07-31T20:31:58.000Z</updated>
+        <updated>2025-08-08T11:46:26.000Z</updated>
         <summary type="html"><![CDATA[---]]></summary>
         <content type="html"><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-introduction">✨ Introduction<a href="https://king-luvaha.github.io/project-wiki/blog/building-2D-platformer-ninja-game#-introduction" class="hash-link" aria-label="Direct link to ✨ Introduction" title="Direct link to ✨ Introduction">​</a></h2>
@@ -116,6 +116,143 @@
         <category label="Python" term="Python"/>
         <category label="2D Games" term="2D Games"/>
         <category label="Ninja Game" term="Ninja Game"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Install and Set Up MongoDB on Windows 11 (2025 Edition)]]></title>
+        <id>https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition</id>
+        <link href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition"/>
+        <updated>2025-08-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[---]]></summary>
+        <content type="html"><![CDATA[<hr>
+<p>MongoDB is one of the most popular NoSQL databases used in modern applications. Whether you're a backend developer, full-stack engineer, or just exploring databases, learning how to install MongoDB on Windows 11 is a solid first step.</p>
+<p>In this guide, you'll learn how to:</p>
+<p>✅ Download and install the latest version of MongoDB
+✅ Install MongoDB Compass (the GUI)
+✅ Install the MongoDB Shell (<code>mongosh</code>)
+✅ Verify everything is working perfectly</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-1-download-mongodb-for-windows-11">📦 Step 1: Download MongoDB for Windows 11<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#-step-1-download-mongodb-for-windows-11" class="hash-link" aria-label="Direct link to 📦 Step 1: Download MongoDB for Windows 11" title="Direct link to 📦 Step 1: Download MongoDB for Windows 11">​</a></h2>
+<ol>
+<li>
+<p>Visit the <a href="https://www.mongodb.com/try/download/community" target="_blank" rel="noopener noreferrer">MongoDB Download Center</a>.</p>
+</li>
+<li>
+<p>Select the following options:</p>
+<ul>
+<li><strong>Version:</strong> Latest (e.g., 7.0+)</li>
+<li><strong>OS:</strong> Windows</li>
+<li><strong>Package:</strong> MSI</li>
+</ul>
+</li>
+<li>
+<p>Click <strong>Download</strong> and wait for the <code>.msi</code> file to finish downloading.</p>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-step-2-install-mongodb">⚙️ Step 2: Install MongoDB<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#%EF%B8%8F-step-2-install-mongodb" class="hash-link" aria-label="Direct link to ⚙️ Step 2: Install MongoDB" title="Direct link to ⚙️ Step 2: Install MongoDB">​</a></h2>
+<ol>
+<li>
+<p>Double-click the <code>.msi</code> installer to launch the setup wizard.</p>
+</li>
+<li>
+<p>Select <strong>Complete</strong> installation.</p>
+</li>
+<li>
+<p>On the "Service Configuration" screen:</p>
+<ul>
+<li>Choose <strong>Run MongoDB as a Service</strong>.</li>
+<li>Leave defaults (<code>Network Service user</code>, port 27017).</li>
+</ul>
+</li>
+<li>
+<p>On the "Data Directory" screen:</p>
+<ul>
+<li>Default is usually: <code>C:\Program Files\MongoDB\Server\&lt;version&gt;\</code></li>
+</ul>
+</li>
+<li>
+<p>Finish installation.</p>
+</li>
+</ol>
+<p>✅ MongoDB is now installed on your machine.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-3-install-mongodb-shell-mongosh">🧪 Step 3: Install MongoDB Shell (mongosh)<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#-step-3-install-mongodb-shell-mongosh" class="hash-link" aria-label="Direct link to 🧪 Step 3: Install MongoDB Shell (mongosh)" title="Direct link to 🧪 Step 3: Install MongoDB Shell (mongosh)">​</a></h2>
+<p>Starting from MongoDB 6.0+, the legacy <code>mongo</code> shell has been replaced with <code>mongosh</code>.</p>
+<ol>
+<li>
+<p>Download the standalone <strong>MongoDB Shell (mongosh)</strong> from:
+👉 <a href="https://www.mongodb.com/try/download/shell" target="_blank" rel="noopener noreferrer">https://www.mongodb.com/try/download/shell</a></p>
+</li>
+<li>
+<p>Choose:</p>
+<ul>
+<li>OS: Windows</li>
+<li>Package: Zip Archive</li>
+</ul>
+</li>
+<li>
+<p>Extract the zip file (e.g., to <code>C:\mongosh</code>) and optionally add it to your system <code>PATH</code>:</p>
+<ul>
+<li>Open <strong>System Properties</strong> &gt; <strong>Environment Variables</strong></li>
+<li>Under <strong>System variables</strong>, find <code>Path</code>, click <strong>Edit</strong>, then <strong>New</strong>, and paste the path to the extracted <code>mongosh.exe</code></li>
+</ul>
+</li>
+</ol>
+<p>Now you can open a terminal (Command Prompt or PowerShell) and run:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">mongosh</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-4-install-mongodb-compass">💻 Step 4: Install MongoDB Compass<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#-step-4-install-mongodb-compass" class="hash-link" aria-label="Direct link to 💻 Step 4: Install MongoDB Compass" title="Direct link to 💻 Step 4: Install MongoDB Compass">​</a></h2>
+<p>MongoDB Compass is the official GUI for interacting with your MongoDB database visually.</p>
+<ol>
+<li>Visit: <a href="https://www.mongodb.com/try/download/compass" target="_blank" rel="noopener noreferrer">https://www.mongodb.com/try/download/compass</a></li>
+<li>Choose the <strong>latest version</strong> and download the <code>.exe</code> installer.</li>
+<li>Run the installer and follow the default steps.</li>
+</ol>
+<p>Once installed, launch Compass and connect to:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">mongodb://localhost:27017</span><br></span></code></pre></div></div>
+<p>You should see your MongoDB instance running.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-5-verify-your-installation">✅ Step 5: Verify Your Installation<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#-step-5-verify-your-installation" class="hash-link" aria-label="Direct link to ✅ Step 5: Verify Your Installation" title="Direct link to ✅ Step 5: Verify Your Installation">​</a></h2>
+<p>Let’s test everything to ensure MongoDB is up and running:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-check-mongodb-service-status">🔹 1. Check MongoDB Service Status<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#-1-check-mongodb-service-status" class="hash-link" aria-label="Direct link to 🔹 1. Check MongoDB Service Status" title="Direct link to 🔹 1. Check MongoDB Service Status">​</a></h3>
+<p>Open <strong>Command Prompt</strong> and run:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sc query MongoDB</span><br></span></code></pre></div></div>
+<p>You should see <code>RUNNING</code> under <code>STATE</code>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-connect-via-mongodb-shell">🔹 2. Connect via MongoDB Shell<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#-2-connect-via-mongodb-shell" class="hash-link" aria-label="Direct link to 🔹 2. Connect via MongoDB Shell" title="Direct link to 🔹 2. Connect via MongoDB Shell">​</a></h3>
+<p>Run:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">mongosh</span><br></span></code></pre></div></div>
+<p>Expected output:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Current Mongosh Log ID...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Connecting to:        mongodb://127.0.0.1:27017/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Using MongoDB:        7.x.x</span><br></span></code></pre></div></div>
+<p>Then test a basic command:</p>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">show dbs</span><br></span></code></pre></div></div>
+<p>You should see default databases like <code>admin</code>, <code>config</code>, and <code>local</code>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-connect-via-mongodb-compass">🔹 3. Connect via MongoDB Compass<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#-3-connect-via-mongodb-compass" class="hash-link" aria-label="Direct link to 🔹 3. Connect via MongoDB Compass" title="Direct link to 🔹 3. Connect via MongoDB Compass">​</a></h3>
+<ul>
+<li>Launch Compass</li>
+<li>Use connection string: <code>mongodb://localhost:27017</code></li>
+<li>Click <strong>Connect</strong></li>
+<li>You should see your databases listed.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-optional-create-a-test-database">🧹 Optional: Create a Test Database<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#-optional-create-a-test-database" class="hash-link" aria-label="Direct link to 🧹 Optional: Create a Test Database" title="Direct link to 🧹 Optional: Create a Test Database">​</a></h2>
+<p>In <code>mongosh</code>, run:</p>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">use blogTestDB</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">db</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">articles</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">insertOne</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">title</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Hello MongoDB"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">created_at</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">new</span><span class="token plain"> </span><span class="token class-name">Date</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">db</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">articles</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">find</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre></div></div>
+<p>You should see your inserted document.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-conclusion">🎉 Conclusion<a href="https://king-luvaha.github.io/project-wiki/blog/how-to-install-and-set-up-mongodb-on-windows-11-2025-edition#-conclusion" class="hash-link" aria-label="Direct link to 🎉 Conclusion" title="Direct link to 🎉 Conclusion">​</a></h2>
+<p>You’ve successfully installed MongoDB, MongoDB Compass, and mongosh on your Windows 11 system! With this setup, you're ready to build modern, data-driven applications using a powerful NoSQL database.</p>
+<p>Stay tuned for more guides on how to:</p>
+<ul>
+<li>Create schemas in MongoDB</li>
+<li>Connect MongoDB with Node.js or Python</li>
+<li>Host MongoDB in the cloud with Atlas</li>
+</ul>
+<hr>]]></content>
+        <author>
+            <name>Ezra Luvaha</name>
+            <uri>https://portfolio-website-luvaha.vercel.app/</uri>
+        </author>
+        <category label="MongoDB" term="MongoDB"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[How to Set Up a Django Project from Scratch (Step-by-Step Guide)]]></title>
