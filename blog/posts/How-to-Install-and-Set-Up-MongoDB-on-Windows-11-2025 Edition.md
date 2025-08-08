@@ -18,6 +18,9 @@ In this guide, you'll learn how to:
 
 ---
 
+<!-- truncate -->
+
+
 ## 📦 Step 1: Download MongoDB for Windows 11
 
 1. Visit the [MongoDB Download Center](https://www.mongodb.com/try/download/community).
