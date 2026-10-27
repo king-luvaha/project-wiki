@@ -51,12 +51,12 @@ function_name() {
 
 ```
 Let's examine the components.   
-|       Component   <br> |                                                 Meaning   <br> |
+|       Component    |                                                 Meaning    |
 |:-----------------------|:---------------------------------------------------------------|
-| `function_name`   <br> |                        The name you give your function.   <br> |
-|            `()`   <br> |                     Identifies the function definition.   <br> |
-|           `{ }`   <br> |        Encloses the commands belonging to the function.   <br> |
-|        Commands   <br> | The instructions the function will execute when called.   <br> |
+| `function_name`    |                        The name you give your function.    |
+|            `()`    |                     Identifies the function definition.    |
+|           `{ }`    |        Encloses the commands belonging to the function.    |
+|        Commands    | The instructions the function will execute when called.    |
 
 In Bash, you can also write `function function_name { ... }`, but we'll use the `function_name() { ... }` style because it's common and concise.   
 Now let's create a working example.   
@@ -443,14 +443,14 @@ show_system_info
 
 ```
 ### ✅ Requirements checklist   
-|             Requirement   <br> | Status   <br> |                                 Explanation   <br> |
+|             Requirement    | Status    |                                 Explanation    |
 |:-------------------------------|:--------------|:---------------------------------------------------|
-|            Bash shebang   <br> |      ✅   <br> |            Correct interpreter declaration.   <br> |
-|     Function definition   <br> |      ✅   <br> |  `show_system_info()` is correctly defined.   <br> |
-|         Display heading   <br> |      ✅   <br> | Your heading separates the section clearly.   <br> |
-|        Display username   <br> |      ✅   <br> |                $USER supplies the username.   <br> |
-|  Display home directory   <br> |      ✅   <br> |          $HOME supplies the home directory.   <br> |
-| Call the function twice   <br> |      ✅   <br> |            You included two function calls.   <br> |
+|            Bash shebang    |      ✅    |            Correct interpreter declaration.    |
+|     Function definition    |      ✅    |  `show_system_info()` is correctly defined.    |
+|         Display heading    |      ✅    | Your heading separates the section clearly.    |
+|        Display username    |      ✅    |                $USER supplies the username.    |
+|  Display home directory    |      ✅    |          $HOME supplies the home directory.    |
+| Call the function twice    |      ✅    |            You included two function calls.    |
 
 **Result: Task 2 passed!** 🏆   
 One small note: your indentation uses eight spaces. This works perfectly, although two or four spaces are often easier to maintain in larger scripts. There is no need to change it for correctness.   
