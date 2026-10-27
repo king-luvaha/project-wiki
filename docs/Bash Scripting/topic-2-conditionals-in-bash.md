@@ -48,13 +48,13 @@ fi
 
 ```
 Let's break it down.   
-|            Component   <br> |                                                      Meaning   <br> |
+|            Component   <br /> |                                                      Meaning   <br /> |
 |:----------------------------|:--------------------------------------------------------------------|
-|                 `if`   <br> |                              Starts a conditional statement.   <br> |
-|  `[ -f "hello.sh" ]`   <br> |          Checks whether `hello.sh` exists as a regular file.   <br> |
-|               `then`   <br> | Introduces the commands to execute if the condition is true.   <br> |
-| `echo "File found!"`   <br> |                       Displays a message if the file exists.   <br> |
-|                 `fi`   <br> |                              Ends the conditional statement.   <br> |
+|                 `if`   <br /> |                              Starts a conditional statement.   <br /> |
+|  `[ -f "hello.sh" ]`   <br /> |          Checks whether `hello.sh` exists as a regular file.   <br /> |
+|               `then`   <br /> | Introduces the commands to execute if the condition is true.   <br /> |
+| `echo "File found!"`   <br /> |                       Displays a message if the file exists.   <br /> |
+|                 `fi`   <br /> |                              Ends the conditional statement.   <br /> |
 
 Notice that `fi` is `if` spelled backward.   
 **Important:** The spaces inside `[ ... ]` are required.   
@@ -264,10 +264,10 @@ fi
 ```
 This is also correct!   
 You've demonstrated that you understand the difference between these two file tests:   
-| Test   <br> |                               Purpose   <br> |
+| Test   <br /> |                               Purpose   <br /> |
 |:------------|:---------------------------------------------|
-| `-f`   <br> | Checks whether a regular file exists.   <br> |
-| `-d`   <br> |    Checks whether a directory exists.   <br> |
+| `-f`   <br /> | Checks whether a regular file exists.   <br /> |
+| `-d`   <br /> |    Checks whether a directory exists.   <br /> |
 
 You also used `"$HOME/bash-practice"` correctly to construct the directory path.   
 **Both scripts pass their code reviews.** 🏆   
